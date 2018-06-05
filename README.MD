@@ -31,7 +31,7 @@ LICENSEJ.DAT
 
 07 -- Play/Debug
 
-*** Steps 3, 4 and 5 are deprecated and these instructions will be 
+*** Steps 3, 4 and 5 are deprecated and these instructions will be updated soon
 
 # Version
 005, 2018-06-05		Updated Readme, Bugfixes
