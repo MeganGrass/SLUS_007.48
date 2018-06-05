@@ -1,0 +1,29 @@
+
+
+MAIN3E		"Concrete Bound" (Bio1)
+MAIN3D		"Nothing More to do Here" (Bio2)
+MAIN3C		Umbrella Lab (Bio1)
+MAIN3B		Raccoon City Pt 2 (Bio3)
+MAIN3A		Restaurant (Bio3)
+MAIN39		RPD Basement (Bio2)
+MAIN2F		Wind, Fire, Zombies, Crows (Bio3)
+MAIN2E		Zombies (Bio3)
+MAIN2D		Fire (Bio3)
+MAIN2C		Wind, Zombies, Crows (Bio3)
+MAIN2B		Raccoon City Pt 1 (Bio3)
+MAIN2A		Wind, Crows (Bio3)
+MAIN1F		Fire, Zombies (Bio2)
+MAIN1E		Wind (Bio2)
+MAIN1D		"Distant Memories" (Bio2 Trial)
+MAIN1C		G Malformation (Bio2 Beta)
+MAIN1B		RPD Second Floor (Bio2)
+MAIN1A		Living Dead Passengers (Bio2)
+
+MAIN00		Bio15->Bio2 update, Marshall Yard
+MAIN04		Bio15->Bio2 update, Marshall Yard
+MAIN06		Bio15->Bio2 update, Umbrella Lab
+MAIN07		Bio15->Bio2 update, Fear is no Word
+MAIN09		Bio15->Bio2 update, Wreckage
+MAIN0E		Bio15->Bio2 update, Maximize
+MAIN0D		Bio15->Bio2 update, Boss
+MAIN0B		Bio15->Bio2 update, Boss

@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<iso_project image_name="C:\BioDS\disc.bin" cue_sheet="C:\BioDS\disc.cue">
+  <track type="data">
+  <identifiers
+  system        ="PLAYSTATION"
+  application   ="PLAYSTATION"
+  volume        ="BIOREMIX"
+  volume_set    ="BIOREMIX"
+  publisher     ="CAPCOM Co., Ltd."
+  data_preparer ="CAPCOM Co., Ltd."
+  />
+  <license file="C:\BioDS\utility\LICENSEA.DAT"/>
+  <directory_tree>
+
+  <dir name="BIN">
+  <file name="BIO1.BIN" type="data" source="C:\BioDS\disc\BINARY\BIO1.BIN"/>
+  <file name="BIO2.BIN" type="data" source="C:\BioDS\disc\BINARY\BIO2.BIN"/>
+  <file name="BIO2P.BIN" type="data" source="C:\BioDS\disc\BINARY\BIO2P.BIN"/>
+  <file name="BIO3.BIN" type="data" source="C:\BioDS\disc\BINARY\BIO3.BIN"/>
+  <file name="BOOT.BIN" type="data" source="C:\BioDS\disc\BINARY\BOOT.BIN"/>
+  <file name="CONFIG.BIN" type="data" source="C:\BioDS\disc\BINARY\CONFIG.BIN"/>
+  <file name="DEBUG.BIN" type="data" source="C:\BioDS\disc\BINARY\DEBUG.BIN"/>
+  <file name="DIEDEMO.BIN" type="data" source="C:\BioDS\disc\BINARY\DIEDEMO.BIN"/>
+  <file name="ENDING.BIN" type="data" source="C:\BioDS\disc\BINARY\ENDING.BIN"/>
+  <file name="MEM_CARD.BIN" type="data" source="C:\BioDS\disc\BINARY\MEM_CARD.BIN"/>
+  <file name="OPENING.BIN" type="data" source="C:\BioDS\disc\BINARY\OPENING.BIN"/>
+  <file name="RESULT.BIN" type="data" source="C:\BioDS\disc\BINARY\RESULT.BIN"/>
+  <file name="SELECT.BIN" type="data" source="C:\BioDS\disc\BINARY\SELECT.BIN"/>
+  </dir>
+
+  <dir name="BSS">
+  <file name="BH1TIT.TIM" type="data" source="C:\BioDS\disc\BSS\BH1TIT.TIM"/>
+  <file name="BH2PTIT.TIM" type="data" source="C:\BioDS\disc\BSS\BH2PTIT.TIM"/>
+  <file name="BH3TIT.TIM" type="data" source="C:\BioDS\disc\BSS\BH3TIT.TIM"/>
+  <file name="CAPCOM.TIM" type="data" source="C:\BioDS\disc\BSS\CAPCOM.TIM"/>
+  <file name="YOUDIED.TIM" type="data" source="C:\BioDS\disc\BSS\YOUDIED.TIM"/>
+  <file name="ROOM101.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM102.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM103.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM104.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM105.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM106.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM107.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM108.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM109.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM10A.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM10B.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM10C.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM10D.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM10E.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM10F.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM110.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM111.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM112.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM113.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM114.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM115.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM116.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM117.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM118.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM119.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM11A.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM11B.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM11C.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM11D.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM200.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM201.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM202.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM203.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM204.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM205.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM206.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM207.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM208.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM209.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM20A.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM20B.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM20C.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM20D.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM20E.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM20F.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM210.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM211.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM212.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM213.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM214.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM215.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM216.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM219.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM21A.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM21B.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM300.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM301.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM302.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM303.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM304.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM305.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM306.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM307.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM308.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM309.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM30A.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM30B.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM30C.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM30D.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM400.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM401.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM402.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM403.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM404.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM405.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM407.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM408.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM409.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM40A.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM40B.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM40C.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM40D.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM40E.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM40F.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM410.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM500.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM501.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM502.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM503.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM504.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM505.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM506.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM507.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM508.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM509.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM600.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM601.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM602.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM603.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM604.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM605.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM606.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM607.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM608.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM609.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM60A.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM60B.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM60C.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM60D.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM60E.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM60F.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM610.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM611.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM612.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM613.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM614.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM615.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM616.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM617.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM700.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM701.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  <file name="ROOM702.BSS" type="data" source="C:\BioDS\asset\dummy.bss"/>
+  </dir>
+
+  <dir name="DATA">
+  <file name="CLEAR1.PIX" type="data" source="C:\BioDS\disc\DATA\CLEAR1.PIX"/>
+  <file name="CLEAR2.PIX" type="data" source="C:\BioDS\disc\DATA\CLEAR2.PIX"/>
+  <file name="COLOR.TIM" type="data" source="C:\BioDS\disc\DATA\COLOR.TIM"/>
+  <file name="CONFIG.TIM" type="data" source="C:\BioDS\disc\DATA\CONFIG.TIM"/>
+  <file name="CORE00.ESP" type="data" source="C:\BioDS\disc\DATA\CORE00.ESP"/>
+  <file name="CORE01.TIM" type="data" source="C:\BioDS\disc\DATA\CORE01.TIM"/>
+  <file name="DIED00.DIE" type="data" source="C:\BioDS\disc\DATA\DIED00.DIE"/>
+  <file name="DIED01.DIE" type="data" source="C:\BioDS\disc\DATA\DIED01.DIE"/>
+  <file name="DIED0B.DIE" type="data" source="C:\BioDS\disc\DATA\DIED0B.DIE"/>
+  <file name="DIED0C.DIE" type="data" source="C:\BioDS\disc\DATA\DIED0C.DIE"/>
+  <file name="DIED0D.DIE" type="data" source="C:\BioDS\disc\DATA\DIED0D.DIE"/>
+  <file name="DIED0E.DIE" type="data" source="C:\BioDS\disc\DATA\DIED0E.DIE"/>
+  <file name="DIED0F.DIE" type="data" source="C:\BioDS\disc\DATA\DIED0F.DIE"/>
+  <file name="END00.TIM" type="data" source="C:\BioDS\disc\DATA\END00.TIM"/>
+  <file name="END10.TIM" type="data" source="C:\BioDS\disc\DATA\END10.TIM"/>
+  <file name="END11.TIM" type="data" source="C:\BioDS\disc\DATA\END11.TIM"/>
+  <file name="END12.TIM" type="data" source="C:\BioDS\disc\DATA\END12.TIM"/>
+  <file name="END13.TIM" type="data" source="C:\BioDS\disc\DATA\END13.TIM"/>
+  <file name="END14.TIM" type="data" source="C:\BioDS\disc\DATA\END14.TIM"/>
+  <file name="END15.TIM" type="data" source="C:\BioDS\disc\DATA\END15.TIM"/>
+  <file name="END16.TIM" type="data" source="C:\BioDS\disc\DATA\END16.TIM"/>
+  <file name="END17.TIM" type="data" source="C:\BioDS\disc\DATA\END17.TIM"/>
+  <file name="END18.TIM" type="data" source="C:\BioDS\disc\DATA\END18.TIM"/>
+  <file name="END19.TIM" type="data" source="C:\BioDS\disc\DATA\END19.TIM"/>
+  <file name="EXTITLE.TIM" type="data" source="C:\BioDS\disc\DATA\EXTITLE.TIM"/>
+  <file name="EXTITLE1.TIM" type="data" source="C:\BioDS\disc\DATA\EXTITLE1.TIM"/>
+  <file name="FILES.TIM" type="data" source="C:\BioDS\disc\DATA\FILES.TIM"/>
+  <file name="GWARNING.TIM" type="data" source="C:\BioDS\disc\DATA\GWARNING.TIM"/>
+  <file name="INIT_TBL.DAT" type="data" source="C:\BioDS\disc\DATA\INIT_TBL.DAT"/>
+  <file name="ITEMALL.PIX" type="data" source="C:\BioDS\disc\DATA\ITEMALL.PIX"/>
+  <file name="ITPS.ITP" type="data" source="C:\BioDS\disc\DATA\ITPS.ITP"/>
+  <file name="MAPS.PIX" type="data" source="C:\BioDS\disc\DATA\MAPS.PIX"/>
+  <file name="MIX.PIX" type="data" source="C:\BioDS\disc\DATA\MIX.PIX"/>
+  <file name="OPEN00.TIM" type="data" source="C:\BioDS\disc\DATA\OPEN00.TIM"/>
+  <file name="OPEN01.TIM" type="data" source="C:\BioDS\disc\DATA\OPEN01.TIM"/>
+  <file name="OPEN02.TIM" type="data" source="C:\BioDS\disc\DATA\OPEN02.TIM"/>
+  <file name="OPEN03.TIM" type="data" source="C:\BioDS\disc\DATA\OPEN03.TIM"/>
+  <file name="OPEN04.TIM" type="data" source="C:\BioDS\disc\DATA\OPEN04.TIM"/>
+  <file name="OPEN05.TIM" type="data" source="C:\BioDS\disc\DATA\OPEN05.TIM"/>
+  <file name="OPEN06.TIM" type="data" source="C:\BioDS\disc\DATA\OPEN06.TIM"/>
+  <file name="OPEN07.TIM" type="data" source="C:\BioDS\disc\DATA\OPEN07.TIM"/>
+  <file name="OPEN10.TIM" type="data" source="C:\BioDS\disc\DATA\OPEN10.TIM"/>
+  <file name="OPEN11.TIM" type="data" source="C:\BioDS\disc\DATA\OPEN11.TIM"/>
+  <file name="OPEN12.TIM" type="data" source="C:\BioDS\disc\DATA\OPEN12.TIM"/>
+  <file name="OPEN13.TIM" type="data" source="C:\BioDS\disc\DATA\OPEN13.TIM"/>
+  <file name="OPEN14.TIM" type="data" source="C:\BioDS\disc\DATA\OPEN14.TIM"/>
+  <file name="OPNC.CPT" type="data" source="C:\BioDS\disc\DATA\OPNC.CPT"/>
+  <file name="OPNL.CPT" type="data" source="C:\BioDS\disc\DATA\OPNL.CPT"/>
+  <file name="OPNW.CPT" type="data" source="C:\BioDS\disc\DATA\OPNW.CPT"/>
+  <file name="PADDDSU.TIM" type="data" source="C:\BioDS\disc\DATA\PADDDSU.TIM"/>
+  <file name="PADDU.TIM" type="data" source="C:\BioDS\disc\DATA\PADDU.TIM"/>
+  <file name="R108.CPT" type="data" source="C:\BioDS\disc\DATA\R108.CPT"/>
+  <file name="R204C16.PIX" type="data" source="C:\BioDS\disc\DATA\R204C16.PIX"/>
+  <file name="R204L16.PIX" type="data" source="C:\BioDS\disc\DATA\R204L16.PIX"/>
+  <file name="R40X.CPT" type="data" source="C:\BioDS\disc\DATA\R40X.CPT"/>
+  <file name="R700C.CPT" type="data" source="C:\BioDS\disc\DATA\R700C.CPT"/>
+  <file name="R700L.CPT" type="data" source="C:\BioDS\disc\DATA\R700L.CPT"/>
+  <file name="R703C.CPT" type="data" source="C:\BioDS\disc\DATA\R703C.CPT"/>
+  <file name="R703L.CPT" type="data" source="C:\BioDS\disc\DATA\R703L.CPT"/>
+  <file name="R704C.CPT" type="data" source="C:\BioDS\disc\DATA\R704C.CPT"/>
+  <file name="R704L.CPT" type="data" source="C:\BioDS\disc\DATA\R704L.CPT"/>
+  <file name="RES_MOJI.TIM" type="data" source="C:\BioDS\disc\DATA\RES_MOJI.TIM"/>
+  <file name="RESULT.TIM" type="data" source="C:\BioDS\disc\DATA\RESULT.TIM"/>
+  <file name="SELECT.TIM" type="data" source="C:\BioDS\disc\DATA\SELECT.TIM"/>
+  <file name="SELECTH.TIM" type="data" source="C:\BioDS\disc\DATA\SELECTH.TIM"/>
+  <file name="SELECTH2.TIM" type="data" source="C:\BioDS\disc\DATA\SELECTH2.TIM"/>
+  <file name="SELECTH3.TIM" type="data" source="C:\BioDS\disc\DATA\SELECTH3.TIM"/>
+  <file name="SELECT_B.TIM" type="data" source="C:\BioDS\disc\DATA\SELECT_B.TIM"/>
+  <file name="SELECT_W.TIM" type="data" source="C:\BioDS\disc\DATA\SELECT_W.TIM"/>
+  <file name="SPY_LOGO.TIM" type="data" source="C:\BioDS\disc\DATA\SPY_LOGO.TIM"/>
+  <file name="ST0.TIM" type="data" source="C:\BioDS\disc\DATA\ST0.TIM"/>
+  <file name="ST1.TIM" type="data" source="C:\BioDS\disc\DATA\ST1.TIM"/>
+  <file name="ST1_.TIM" type="data" source="C:\BioDS\disc\DATA\ST1_.TIM"/>
+  <file name="ST1_FONT.TIM" type="data" source="C:\BioDS\disc\DATA\ST1_FONT.TIM"/>
+  <file name="ST2_FONT.TIM" type="data" source="C:\BioDS\disc\DATA\ST2_FONT.TIM"/>
+  <file name="ST3_FONT.TIM" type="data" source="C:\BioDS\disc\DATA\ST3_FONT.TIM"/>
+  <file name="ST4_FONT.TIM" type="data" source="C:\BioDS\disc\DATA\ST4_FONT.TIM"/>
+  <file name="ST5_FONT.TIM" type="data" source="C:\BioDS\disc\DATA\ST5_FONT.TIM"/>
+  <file name="ST6_FONT.TIM" type="data" source="C:\BioDS\disc\DATA\ST6_FONT.TIM"/>
+  <file name="ST7_FONT.TIM" type="data" source="C:\BioDS\disc\DATA\ST7_FONT.TIM"/>
+  <file name="ST_FILE.TIM" type="data" source="C:\BioDS\disc\DATA\ST_FILE.TIM"/>
+  <file name="ST_FILE.TM2" type="data" source="C:\BioDS\disc\DATA\ST_FILE.TM2"/>
+  <file name="ST_FILE.TS" type="data" source="C:\BioDS\disc\DATA\ST_FILE.TS"/>
+  <file name="ST_MOJI.TIM" type="data" source="C:\BioDS\disc\DATA\ST_MOJI.TIM"/>
+  <file name="STG.NXT" type="data" source="C:\BioDS\disc\DATA\STG.NXT"/>
+  <file name="TEX.TIM" type="data" source="C:\BioDS\disc\DATA\TEX.TIM"/>
+  <file name="TEX_PAL.TIM" type="data" source="C:\BioDS\disc\DATA\TEX_PAL.TIM"/>
+  <file name="TITLE_O.TIM" type="data" source="C:\BioDS\disc\DATA\TITLE_O.TIM"/>
+  <file name="TITLE_O2.TIM" type="data" source="C:\BioDS\disc\DATA\TITLE_O2.TIM"/>
+  <file name="TIT_BG.TIM" type="data" source="C:\BioDS\disc\DATA\TIT_BG.TIM"/>
+  <file name="TMOJI.TIM" type="data" source="C:\BioDS\disc\DATA\TMOJI.TIM"/>
+  <file name="TOFULOGO.TIM" type="data" source="C:\BioDS\disc\DATA\TOFULOGO.TIM"/>
+  <file name="TYPE00.PIX" type="data" source="C:\BioDS\disc\DATA\TYPE00.PIX"/>
+  <file name="WARNING.TIM" type="data" source="C:\BioDS\disc\DATA\WARNING.TIM"/>
+  </dir>
+
+  <dir name="RES1" srcdir="C:\BioDS\disc\RES1">
+  <file name="BSS01.CDX" type="data"/>
+  <file name="BSS02.CDX" type="data"/>
+  <file name="BSS03.CDX" type="data"/>
+  <file name="BSS04.CDX" type="data"/>
+  <file name="BSS05.CDX" type="data"/>
+  <file name="BSS06.CDX" type="data"/>
+  <file name="BSS07.CDX" type="data"/>
+  <file name="DO2.CDX" type="data"/>
+  <file name="EMD00.CDX" type="data"/>
+  <file name="EMD01.CDX" type="data"/>
+  <file name="PLD.CDX" type="data"/>
+  <file name="PLW00.CDX" type="data"/>
+  <file name="PLW01.CDX" type="data"/>
+  <file name="PLW02.CDX" type="data"/>
+  <file name="PLW03.CDX" type="data"/>
+  <file name="PLW04.CDX" type="data"/>
+  <file name="PLW05.CDX" type="data"/>
+  <file name="PLW06.CDX" type="data"/>
+  <file name="PLW07.CDX" type="data"/>
+  <file name="PLW08.CDX" type="data"/>
+  <file name="PLW09.CDX" type="data"/>
+  <file name="PLW0A.CDX" type="data"/>
+  <file name="PLW0B.CDX" type="data"/>
+  <file name="PLW0C.CDX" type="data"/>
+  <file name="PLW0D.CDX" type="data"/>
+  <file name="PLW0E.CDX" type="data"/>
+  <file name="PLW0F.CDX" type="data"/>
+  <file name="SNDARMS.CDX" type="data"/>
+  <file name="SNDCORE.CDX" type="data"/>
+  <file name="SNDEMD.CDX" type="data"/>
+  <file name="SNDMAIN.CDX" type="data"/>
+  <file name="SNDSUB.CDX" type="data"/>
+  <file name="STG0001.CDX" type="data"/>
+  <file name="STG0002.CDX" type="data"/>
+  <file name="STG0003.CDX" type="data"/>
+  <file name="STG0004.CDX" type="data"/>
+  <file name="STG0005.CDX" type="data"/>
+  <file name="STG0006.CDX" type="data"/>
+  <file name="STG0007.CDX" type="data"/>
+  <file name="STG0101.CDX" type="data"/>
+  <file name="STG0102.CDX" type="data"/>
+  <file name="STG0103.CDX" type="data"/>
+  <file name="STG0104.CDX" type="data"/>
+  <file name="STG0105.CDX" type="data"/>
+  <file name="STG0106.CDX" type="data"/>
+  <file name="STG0107.CDX" type="data"/>
+  </dir>
+
+  <dir name="RES2" srcdir="C:\BioDS\disc\RES2">
+  <file name="BSS01.CDX" type="data"/>
+  <file name="BSS02.CDX" type="data"/>
+  <file name="BSS03.CDX" type="data"/>
+  <file name="BSS04.CDX" type="data"/>
+  <file name="BSS05.CDX" type="data"/>
+  <file name="BSS06.CDX" type="data"/>
+  <file name="BSS07.CDX" type="data"/>
+  <file name="DO2.CDX" type="data"/>
+  <file name="EMD00.CDX" type="data"/>
+  <file name="EMD01.CDX" type="data"/>
+  <file name="PLD.CDX" type="data"/>
+  <file name="PLW00.CDX" type="data"/>
+  <file name="PLW01.CDX" type="data"/>
+  <file name="PLW02.CDX" type="data"/>
+  <file name="PLW03.CDX" type="data"/>
+  <file name="PLW04.CDX" type="data"/>
+  <file name="PLW05.CDX" type="data"/>
+  <file name="PLW06.CDX" type="data"/>
+  <file name="PLW07.CDX" type="data"/>
+  <file name="PLW08.CDX" type="data"/>
+  <file name="PLW09.CDX" type="data"/>
+  <file name="PLW0A.CDX" type="data"/>
+  <file name="PLW0B.CDX" type="data"/>
+  <file name="PLW0C.CDX" type="data"/>
+  <file name="PLW0D.CDX" type="data"/>
+  <file name="PLW0E.CDX" type="data"/>
+  <file name="PLW0F.CDX" type="data"/>
+  <file name="SNDARMS.CDX" type="data"/>
+  <file name="SNDCORE.CDX" type="data"/>
+  <file name="SNDEMD.CDX" type="data"/>
+  <file name="SNDMAIN.CDX" type="data"/>
+  <file name="SNDSUB.CDX" type="data"/>
+  <file name="STG0001.CDX" type="data"/>
+  <file name="STG0002.CDX" type="data"/>
+  <file name="STG0003.CDX" type="data"/>
+  <file name="STG0004.CDX" type="data"/>
+  <file name="STG0005.CDX" type="data"/>
+  <file name="STG0006.CDX" type="data"/>
+  <file name="STG0007.CDX" type="data"/>
+  <file name="STG0101.CDX" type="data"/>
+  <file name="STG0102.CDX" type="data"/>
+  <file name="STG0103.CDX" type="data"/>
+  <file name="STG0104.CDX" type="data"/>
+  <file name="STG0105.CDX" type="data"/>
+  <file name="STG0106.CDX" type="data"/>
+  <file name="STG0107.CDX" type="data"/>
+  </dir>
+
+  <dir name="RES2P" srcdir="C:\BioDS\disc\RES2P">
+  <file name="BSS01.CDX" type="data"/>
+  <file name="BSS02.CDX" type="data"/>
+  <file name="BSS03.CDX" type="data"/>
+  <file name="BSS04.CDX" type="data"/>
+  <file name="BSS05.CDX" type="data"/>
+  <file name="BSS06.CDX" type="data"/>
+  <file name="BSS07.CDX" type="data"/>
+  <file name="DO2.CDX" type="data"/>
+  <file name="EMD00.CDX" type="data"/>
+  <file name="EMD01.CDX" type="data"/>
+  <file name="PLD.CDX" type="data"/>
+  <file name="PLW00.CDX" type="data"/>
+  <file name="PLW01.CDX" type="data"/>
+  <file name="PLW02.CDX" type="data"/>
+  <file name="PLW03.CDX" type="data"/>
+  <file name="PLW04.CDX" type="data"/>
+  <file name="PLW05.CDX" type="data"/>
+  <file name="PLW06.CDX" type="data"/>
+  <file name="PLW07.CDX" type="data"/>
+  <file name="PLW08.CDX" type="data"/>
+  <file name="PLW09.CDX" type="data"/>
+  <file name="PLW0A.CDX" type="data"/>
+  <file name="PLW0B.CDX" type="data"/>
+  <file name="PLW0C.CDX" type="data"/>
+  <file name="PLW0D.CDX" type="data"/>
+  <file name="PLW0E.CDX" type="data"/>
+  <file name="PLW0F.CDX" type="data"/>
+  <file name="SNDARMS.CDX" type="data"/>
+  <file name="SNDCORE.CDX" type="data"/>
+  <file name="SNDEMD.CDX" type="data"/>
+  <file name="SNDMAIN.CDX" type="data"/>
+  <file name="SNDSUB.CDX" type="data"/>
+  <file name="STG0001.CDX" type="data"/>
+  <file name="STG0002.CDX" type="data"/>
+  <file name="STG0003.CDX" type="data"/>
+  <file name="STG0004.CDX" type="data"/>
+  <file name="STG0005.CDX" type="data"/>
+  <file name="STG0006.CDX" type="data"/>
+  <file name="STG0007.CDX" type="data"/>
+  <file name="STG0101.CDX" type="data"/>
+  <file name="STG0102.CDX" type="data"/>
+  <file name="STG0103.CDX" type="data"/>
+  <file name="STG0104.CDX" type="data"/>
+  <file name="STG0105.CDX" type="data"/>
+  <file name="STG0106.CDX" type="data"/>
+  <file name="STG0107.CDX" type="data"/>
+  </dir>
+
+  <dir name="RES3" srcdir="C:\BioDS\disc\RES3">
+  <file name="BSS01.CDX" type="data"/>
+  <file name="BSS02.CDX" type="data"/>
+  <file name="BSS03.CDX" type="data"/>
+  <file name="BSS04.CDX" type="data"/>
+  <file name="BSS05.CDX" type="data"/>
+  <file name="BSS06.CDX" type="data"/>
+  <file name="BSS07.CDX" type="data"/>
+  <file name="DO2.CDX" type="data"/>
+  <file name="EMD00.CDX" type="data"/>
+  <file name="EMD01.CDX" type="data"/>
+  <file name="PLD.CDX" type="data"/>
+  <file name="PLW00.CDX" type="data"/>
+  <file name="PLW01.CDX" type="data"/>
+  <file name="PLW02.CDX" type="data"/>
+  <file name="PLW03.CDX" type="data"/>
+  <file name="PLW04.CDX" type="data"/>
+  <file name="PLW05.CDX" type="data"/>
+  <file name="PLW06.CDX" type="data"/>
+  <file name="PLW07.CDX" type="data"/>
+  <file name="PLW08.CDX" type="data"/>
+  <file name="PLW09.CDX" type="data"/>
+  <file name="PLW0A.CDX" type="data"/>
+  <file name="PLW0B.CDX" type="data"/>
+  <file name="PLW0C.CDX" type="data"/>
+  <file name="PLW0D.CDX" type="data"/>
+  <file name="PLW0E.CDX" type="data"/>
+  <file name="PLW0F.CDX" type="data"/>
+  <file name="SNDARMS.CDX" type="data"/>
+  <file name="SNDCORE.CDX" type="data"/>
+  <file name="SNDEMD.CDX" type="data"/>
+  <file name="SNDMAIN.CDX" type="data"/>
+  <file name="SNDSUB.CDX" type="data"/>
+  <file name="STG0001.CDX" type="data"/>
+  <file name="STG0002.CDX" type="data"/>
+  <file name="STG0003.CDX" type="data"/>
+  <file name="STG0004.CDX" type="data"/>
+  <file name="STG0005.CDX" type="data"/>
+  <file name="STG0006.CDX" type="data"/>
+  <file name="STG0007.CDX" type="data"/>
+  <file name="STG0101.CDX" type="data"/>
+  <file name="STG0102.CDX" type="data"/>
+  <file name="STG0103.CDX" type="data"/>
+  <file name="STG0104.CDX" type="data"/>
+  <file name="STG0105.CDX" type="data"/>
+  <file name="STG0106.CDX" type="data"/>
+  <file name="STG0107.CDX" type="data"/>
+  </dir>
+
+  <file name="PSX.EXE" type="data"	source="C:\BioDS\disc\PSX.EXE"/>
+  <file name="SYSTEM.CNF" type="data"	source="C:\BioDS\disc\SYSTEM.CNF"/>
+  <file name="ZNULL.DAT" type="data"	source="C:\BioDS\utility\znull\znull.bin"/>
+
+  </directory_tree>
+  </track>
+  <track type="audio" source="C:\BioDS\utility\znull\znull.xa"/>
+</iso_project>

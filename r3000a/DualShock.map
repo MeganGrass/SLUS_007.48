@@ -1,0 +1,229 @@
+
+
+;; Const Variable
+FALSE:				equ 0
+TRUE:				equ 1
+
+;; Build Flag
+DebugRelease:		equ TRUE
+UseCopyright:		equ FALSE
+NoStatistics:		equ TRUE
+InfHealth:			equ TRUE
+
+;; Debug
+BOOT_HEALTH:		equ 200
+
+;; Gamepad Controller
+PAD_NULL:			equ 0x0000
+PAD_L2:				equ 0x0001
+PAD_R2:				equ 0x0002
+PAD_L1:				equ 0x0004
+PAD_R1:				equ 0x0008
+PAD_TRIANGLE:		equ 0x0010
+PAD_CIRCLE:			equ 0x0020
+PAD_X:				equ 0x0040
+PAD_SQUARE:			equ 0x0080
+PAD_SELECT:			equ 0x0100
+PAD_START:			equ 0x0800
+PAD_UP:				equ 0x1000
+PAD_RIGHT:			equ 0x2000
+PAD_DOWN:			equ 0x4000
+PAD_LEFT:			equ 0x8000
+
+;; Player Controls
+PAD_DEBUG:			equ PAD_TRIANGLE
+PAD_CONFIRM:		equ PAD_SQUARE
+PAD_CANCEL:			equ PAD_X
+PAD_AIM:			equ PAD_R1
+PAD_WEP_PREV:		equ PAD_L2
+PAD_WEP_NEXT:		equ PAD_R2
+PAD_BGM_PREV:		equ PAD_LEFT
+PAD_BGM_NEXT:		equ PAD_RIGHT
+PAD_BGM_NULL:		equ PAD_CIRCLE
+PAD_ANTI_FREEZE:	equ PAD_L1+PAD_SQUARE
+
+;; Debug Text
+ASCII_X:			equ 0x60
+ASCII_SQUARE:		equ 0x7B
+ASCII_TRIANGLE:		equ 0x7C
+ASCII_CIRCLE:		equ 0x7D
+ASCII_CONFIRM:		equ ASCII_SQUARE
+ASCII_CANCEL:		equ ASCII_X
+
+iWork_Normal:		equ 0x00
+iWork_Large:		equ 0x01
+
+;; Variables (Official)
+;; 
+GsIDMATRIX:			equ 0x8009DB44
+Stop_bak:			equ 0x800C3A88
+Global:				equ 0x800CC1E8
+G_Ot00x10:			equ 0x800CC1F8
+G_PaddData:			equ 0x800CE2B4
+G_Padd1:			equ 0x800CE304
+G_Padd1Trg:			equ 0x800CE306
+G_Key:				equ 0x800CE30C
+G_KeyTrg:			equ 0x800CE310
+G_KeyOld:			equ 0x800CE314
+G_pPl_emd_top:		equ 0x800CE31C
+G_pRoom:			equ 0x800CE324
+G_pFree_work_head:	equ 0x800CE328
+G_pFree_work:		equ 0x800CE32C
+G_pEm:				equ 0x800CE330
+G_Game_time_offset:	equ 0x800CE5DC
+G_Cbuf_Id:			equ 0x800CE5E0
+G_pBs_size:			equ 0x800CFAE8
+G_Rbj_set_flg:		equ 0x800CFB70
+G_System_flg:		equ 0x800CFB74
+G_Status_flg:		equ 0x800CFBD8
+G_Stop_flg:			equ 0x800CFBDC
+G_Use_flg:			equ 0x800CFBE0
+G_Ctpage:			equ 0x800CFBF0
+G_Cclut:			equ 0x800CFBF1
+G_Next_cut_no:		equ 0x800CFBF2
+G_Enemy_num:		equ 0x800CFBF3
+G_Room_enemy_flg:	equ 0x800CFBF4
+G_Room_player_flg:	equ 0x800CFBF6
+G_Player:			equ 0x800CFBF8
+Player_Be_flg:		equ 0x800CFBF8
+Player_Routine_0:	equ 0x800CFBFC
+Player_Routine_1:	equ 0x800CFBFD
+Player_Routine_2:	equ 0x800CFBFE
+Player_Routine_3:	equ 0x800CFBFF
+Player_Id:			equ 0x800CFC00
+Player_Pos_x:		equ 0x800CFC30
+Player_Pos_y:		equ 0x800CFC34
+Player_Pos_z:		equ 0x800CFC38
+Player_Old_x:		equ 0x800CFC3C
+Player_Old_y:		equ 0x800CFC3E
+Player_Old_z:		equ 0x800CFC40
+Player_Cdir_x:		equ 0x800CFC6C
+Player_Cdir_y:		equ 0x800CFC6E
+Player_Cdir_z:		equ 0x800CFC70
+Player_nFloor:		equ 0x800CFCFE
+Player_Type:		equ 0x800CFD06
+Player_Sca_old_x:	equ 0x800CFD10
+Player_Sca_old_z:	equ 0x800CFD12
+Player_Life:		equ 0x800CFD4E
+Player_Max_life:	equ 0x800CFD5A
+Player_pNow_seq:	equ 0x800CFD70
+Player_pSin_parts_ptr:	equ 0x800CFD90
+Player_pEnemy_ptr:	equ 0x800CFDAC
+Player_Ground:		equ 0x800CFDBA
+Player_Neck_flg:	equ 0x800CFDB8
+Player_Damage_cnt:	equ 0x800CFDCB
+Player_Poison_Flg0:	equ 0x800CFE10
+Player_Poison_Flg1:	equ 0x800CFE12
+G_pEnemy:			equ 0x800CFE14
+G_Back_func:		equ 0x800D449C
+G_Card_head:		equ 0x800D44A4
+G_pSave:			equ 0x800D46A4
+G_Game_play_time:	equ 0x800D46A4
+G_Pl_id:			equ 0x800D46AE
+G_Pl_life:			equ 0x800D46BE
+G_Zonbi_cnt:		equ 0x800D46C0
+G_Pl_pos_x:			equ 0x800D46C6
+G_Pl_pos_y:			equ 0x800D46C8
+G_Pl_pos_z:			equ 0x800D46CA
+G_Auto_Aim:			equ 0x800D46CC
+G_Stage_no:			equ 0x800D481C
+G_Room_no:			equ 0x800D481E
+G_Cut_no:			equ 0x800D4820
+G_Room_noOld:		equ 0x800D4822
+G_Cut_noOld:		equ 0x800D4824
+G_Sce_timer:		equ 0x800D482A
+G_Scenario_flg:		equ 0x800D4834
+G_Common_flg:		equ 0x800D4854
+G_Room_flg:			equ 0x800D4874
+G_Enemy_flg:		equ 0x800D487C
+G_Item_flg:			equ 0x800D48BC
+G_Map_o_flg:		equ 0x800D4908
+G_File_flg:			equ 0x800D4A28
+G_Zapping_flg:		equ 0x800D4A2C
+G_KeyFlg:			equ 0x800D4A34
+G_Item_work:		equ 0x800D4A3C
+StatusWork:			equ 0x800D5BF0
+Game_Doordemo_flg:	equ 0x800DF348
+ControlTypeABC:		equ 0x800DFD56	;; Main
+BssTimFlag:			equ 0x800DFD57	;; Main
+PauseFlag:			equ 0x800DFD5A	;; Main
+
+;; Variables (Official, Static)
+PRINT_GREY:			equ 0				;; argv[2] of Print8() and Print14() functions
+PRINT_GREEN:		equ 1				;; argv[2] of Print8() and Print14() functions
+PRINT_RED:			equ 2				;; argv[2] of Print8() and Print14() functions
+PRINT_BLUE:			equ 4				;; argv[2] of Print8() and Print14() functions
+pBgmCtr:			equ 0x800DFD64		;; Pointer to BGMCTR Structure
+BgmCtr:				equ 0x800D7856		;; BGMCTR Structure
+ScratchPad:			equ 0x1F800000		;; 1024 byte Hardware Buffer
+
+;; Variables (Custom)
+pBuildDateStr:		equ 0x80010000		;; CHAR[16]	Build Date String (injected after asm)
+GAME_BIN_LBA:		equ 0x80010010		;; ULONG	pDiscTable (BINARY)
+GAME_BSS_LBA:		equ 0x80010014		;; ULONG	pDiscTable (BSS)
+GAME_DAT_LBA:		equ 0x80010018		;; ULONG	pDiscTable (DATA)
+GAME_DO2_LBA:		equ 0x8001001C		;; ULONG	pDiscTable (DOOR)
+GAME_EMD0_LBA:		equ 0x80010020		;; ULONG	pDiscTable (EMD0)
+GAME_EMD1_LBA:		equ 0x80010024		;; ULONG	pDiscTable (EMD1)
+GAME_PLD_LBA:		equ 0x80010028		;; ULONG	pDiscTable (PLD)
+GAME_PLW_LBA:		equ 0x8001002C		;; ULONG	pDiscTable (PLW)
+GAME_SNDARMS_LBA:	equ 0x80010030		;; ULONG	pDiscTable (SNDARMS)
+GAME_SNDCORE_LBA:	equ 0x80010034		;; ULONG	pDiscTable (SNDCORE)
+GAME_SNDEMD_LBA:	equ 0x80010038		;; ULONG	pDiscTable (SNDEMD)
+GAME_SNDMAIN_LBA:	equ 0x8001003C		;; ULONG	pDiscTable (SNDMAIN)
+GAME_SNDSUB_LBA:	equ 0x80010040		;; ULONG	pDiscTable (SNDSUB)
+GAME_RDT_LBA:		equ 0x80010044		;; ULONG	pDiscTable (STAGE)
+pPlMvPadTbl:		equ 0x80010048		;; ULONG[13]Player Movement Triggers
+pPlMvTbl:			equ 0x8001007C		;; ULONG[13]Player Movement
+GAME_VERSION:		equ 0x800100B0		;; UCHAR	0=Bio1, 1=Bio1.5, 2=Bio2, 3=Bio3
+DISK_ID:			equ	0x800100B1		;; UCHAR	Disc ID (0=Chris/Leon, 1=Jill/Claire)
+BOOT_PLAYER:		equ 0x800100B2		;; UCHAR	Player ID (0-F)
+DBG_LANGUAGE:		equ 0x800100B3		;; UCHAR	Language (0=JP,1=US)
+CONTROLLER_TYPE:	equ	0x800100B4		;; UCHAR	Controller Type (0=JPN,1=USA)
+FORCEAUTOAIM:		equ 0x800100B5		;; UCHAR	Auto-Aim (0=OFF,1=ON)
+FORCEINFAMMO:		equ 0x800100B6		;; UCHAR	Infinite Ammo (0=OFF,1=ON)
+DBG_QTURN_FLAG:		equ 0x800100B7		;; UCHAR	Quick-Turn (0=OFF,1=ON)
+FLG_QUICK_KNIFE:	equ 0x800100B8		;; UCHAR	Quick-Knife (0=OFF,1=ON)
+FLG_QUICK_RELOAD:	equ 0x800100B9		;; UCHAR	Quick-Reload (0=OFF,1=ON)
+DBG_PRINT_RDT:		equ 0x800100BA		;; UCHAR	Print RDT ID (0=OFF,1=ON)
+DBG_PRINT_PLPOS:	equ 0x800100BB		;; UCHAR	Print Player Position (0=OFF,1=ON)
+DBG_PRINT_PLROT:	equ 0x800100BC		;; UCHAR	Print Player Rotation (0=OFF,1=ON)
+GAME_QUICKTURN:		equ 0x800100BD		;; UCHAR	Did user activate quick-turn? (0=No,1=Yes)
+CNT_QUICKTURN:		equ 0x800100BE		;; UCHAR	Quick-turn counter
+DBG_AREA_JUMP:		equ 0x800100BF		;; UCHAR	Did user select Area Jump from Debug Menu? (0=No,1=Yes)
+DBG_LAST_MESSAGE:	equ 0x800100C0		;; UCHAR	Current user-toggled Message ID, resets to zero (0) with every call to Set_room()
+DBG_LAST_EVENT:		equ 0x800100C1		;; UCHAR	Current user-toggled Event ID, resets to zero (0) with every call to Set_room()
+
+DebugMenuHook:		equ 0x800263B0		;; Game_loop() hook for DebugMenu() function
+pBGMTable:			equ 0x800A7118		;; 0x60		;; STAGE1-7 BGM ID Table Buffer
+RDTFile:			equ 0x8011A000		;; RDT File is loaded to this location
+
+;; Functions (Custom)
+CdReadEx:			equ 0x80010110		;; 0x1DC	Load BGM File (Final Version)
+LoadStage:			equ 0x800102EC		;; 0xD0		Load BSS/RDT File (Final Version)
+LoadPlwTable:		equ 0x800103BC		;; 0x8C		Load PLW File (Final Version)
+LoadPldEx:			equ 0x80010448		;; 0x50		Load PLD File (Final Version)
+SetMusicEx:			equ 0x80010498		;; 0x124	Load BGM File (Final Version)
+Doitox:				equ 0x800105BC		;; 0x40		Integer-to-Hex String Conversion (Final Version)
+DecLZO:				equ 0x800105FC		;; 0x17C	File Decompression (Final Version)
+ChgWeapon:			equ 0x80012E70		;; 0x11C	Real-time Weapon Change (Final Version)
+DebugMenu:			equ 0x80032150		;; In-Game Debug Menu
+DebugStatus:		equ 0x80032780		;; Inventory Item Debug
+pl_mv0c_pad:		equ 0x8009D4BC		;; Quick-Turn
+
+;; File Index
+pDiscTable:			equ 0x800988A4		;; File ID Table
+;; equ 0x80098CF0		;; 0x3D8
+DataArchiveTable:	equ 0x80098D04		;; 0x2F0	;; Do Not Modify
+;; CdRead Entries (80098FF4-800995B4)	;; 0x5C0	;; Do Not Modify
+;; equ 0x800995B4		;; 0x168
+PldArchiveTbl:		equ 0x80099718		;; 0x80		;; PLD LBA Table Buffer
+PlwArchiveTbl:		equ 0x80099798		;; 0xA4		;; PLW LBA Table Buffer (0xA0 + 0x04 for ID)
+BssArchiveTbl:		equ 0x8009983C		;; 0x180	;; BSS LBA Table Buffer
+RdtArchiveTbl:		equ 0x800999BC		;; 0x180	;; RDT LBA Table Buffer
+BgmMainTbl:			equ 0x80099B3C		;; 0x200	;; BGM MAIN LBA Table Buffer
+BgmSub_Tbl:			equ 0x80099D3C		;; 0x200	;; BGM SUB_ LBA Table Buffer
+CoreArchiveTable:	equ	0x80099F3C		;; 0x160	;; FileTable.s
+ArmsArchiveTable:	equ	0x8009A09C		;; 0x140	;; FileTable.s
+Do2ArchiveTable:	equ 0x8009A1DC		;; 0x200	;; FileTable.s
+;; 8009C30C-8009D478 (unused space)

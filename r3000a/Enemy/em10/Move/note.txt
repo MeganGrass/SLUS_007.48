@@ -1,0 +1,18 @@
+Em10Mv00	
+Em10Mv01	Walk (normal)
+Em10Mv02	Walk (Romero-Style)
+Em10Mv03	Bite/Attack
+Em10Mv04	Crawl
+Em10Mv05	(NOP FUNCTION)
+Em10Mv06	Fall Down (Backward)
+Em10Mv07	Stand Up (from laying on back)
+Em10Mv08	Fall Down (Forward) DIEDEMO INIT?
+Em10Mv09	
+Em10Mv0A	On Hands and Knees, Eating
+Em10Mv0B	Shoved (Backward)
+Em10Mv0C	Beat On Door w/Hands
+Em10Mv0D
+Em10Mv0E
+Em10Mv0F
+Em10Mv10
+Em10Mv11
