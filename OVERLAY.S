@@ -21,6 +21,9 @@ NULL:			equ 0xFF
 .open "BIO3.BIN",0x801BFA18
 .include ".\\r3000a\\Bio3\\AreaJump.s"		;; Debug Room Jump
 .close
+.open "AREA.BIN",0x801BFA18
+.include ".\\r3000a\\Zero\\AreaJump.s"		;; Debug Room Jump
+.close
 
 ;; BIO1
 .open ".\\DISC\\RES1\\BSS01.CDX",0x80000000
@@ -112,4 +115,27 @@ NULL:			equ 0xFF
 .close
 .open ".\\DISC\\RES3\\BSS07.CDX",0x80000000
 .include ".\\r3000a\\Bio3\\Stage7.s"		;; BGM TABLE
+.close
+
+;; Zero
+.open ".\\DISC\\ZERO\\BSS01.CDX",0x80000000
+.include ".\\r3000a\\Zero\\Stage1.s"		;; BGM TABLE
+.close
+.open ".\\DISC\\ZERO\\BSS02.CDX",0x80000000
+.include ".\\r3000a\\Zero\\Stage2.s"		;; BGM TABLE
+.close
+.open ".\\DISC\\ZERO\\BSS03.CDX",0x80000000
+.include ".\\r3000a\\Zero\\Stage3.s"		;; BGM TABLE
+.close
+.open ".\\DISC\\ZERO\\BSS04.CDX",0x80000000
+.include ".\\r3000a\\Zero\\Stage4.s"		;; BGM TABLE
+.close
+.open ".\\DISC\\ZERO\\BSS05.CDX",0x80000000
+.include ".\\r3000a\\Zero\\Stage5.s"		;; BGM TABLE
+.close
+.open ".\\DISC\\ZERO\\BSS06.CDX",0x80000000
+.include ".\\r3000a\\Zero\\Stage6.s"		;; BGM TABLE
+.close
+.open ".\\DISC\\ZERO\\BSS07.CDX",0x80000000
+.include ".\\r3000a\\Zero\\Stage7.s"		;; BGM TABLE
 .close
