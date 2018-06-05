@@ -40,10 +40,7 @@
 			beq		$v0, $v1, @RoomDown
 			nop
 
-@Body:		jal		BackTileTrans
-			nop
-
-			;; Print Room ID
+@Body:		;; Print Room ID
 			lbu		$a0, @iStage
 			nop
 			addiu	$a0, 1

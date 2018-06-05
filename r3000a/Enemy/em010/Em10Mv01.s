@@ -1,0 +1,16 @@
+
+
+.org 0x8010EBBC
+				li      $v1, 0x20
+.org 0x8010EBEC
+				li      $v1, 0x20
+.org 0x8010EC28
+				li      $a3, 0x20
+.org 0x8010ECAC
+				li      $a3, 0x20
+.org 0x8010ED4C
+				li      $a3, 0x20
+.org 0x8010EEEC
+				li      $a3, 0x800
+.org 0x8010EF54
+				li      $a3, 0x800

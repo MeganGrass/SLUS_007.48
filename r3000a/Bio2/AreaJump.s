@@ -40,10 +40,7 @@
 			beq		$v0, $v1, @RoomDown
 			nop
 
-@Body:		jal		BackTileTrans
-			nop
-
-			;; Print Room ID
+@Body:		;; Print Room ID
 			lbu		$a0, @iStage
 			nop
 			addiu	$a0, 1
@@ -232,8 +229,6 @@
 				move    $a3, $0
 
 				@loc_8002CB70:
-				jal		BackTileTrans
-				nop
 				jal     Fade_status
 				move    $a0, $0
 				bnez    $v0, @loc_8002CB90

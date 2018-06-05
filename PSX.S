@@ -1,6 +1,6 @@
 
 
-;; ZERO
+;; SLUS_007.48
 .erroronwarning on
 .psx
 .open "PSX.EXE",0x8000F800
@@ -50,20 +50,47 @@
 .org 0x80043E84
 		la		$a1, 0x800A6D74
 
+;; Arms
+.org 0x80059CE8
+		addiu	$a0, $s2, FILE_ARMS_EDH
+		nop
+		nop
+.org 0x80059DFC
+		addiu	$a0, $s2, FILE_ARMS_VBD
+		nop
+		nop
+
+;; Core
+.org 0x80059A94
+		addiu	$a0, $s3, FILE_CORE_EDH
+		nop
+		nop
+.org 0x80059B58
+		addiu	$a0, $s3, FILE_CORE_VBD
+		nop
+		nop
+.org 0x80059C04
+		addiu	$a0, $s3, FILE_CORE_VBD
+		nop
+		nop
+
+;; Door
+.org 0x80014D88
+		addiu	$a0, $s6, FILE_DO2
+		nop
+		nop
+.org 0x80015094
+		addiu	$a0, $v1, FILE_DO2
+		nop
+		nop
+		sll     $a2, $v1, 1
+		addu    $v1, $a2, $v1
+		sll     $v1, 2
+		addu    $v1, $v0
+
 .close
 
-;; BOOT
+;; DO NOT MODIFY
 .open "BOOT.BIN",0x80190000
 .include ".\\r3000a\\Boot\\Main.s"				;; Boot/Reset Game
-.close
-
-;; DEBUG
-.open "DEBUG.BIN",0x801BFA18
-.include ".\\r3000a\\Debug\\Debug.s"			;; Debug Engine
-.close
-
-;; DIEDEMO
-.open "DIEDEMO.BIN",0x80190000
-.org 0x80190278
-	nop			;; Xa_play
 .close
