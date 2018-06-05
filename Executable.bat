@@ -12,7 +12,7 @@ echo Y | DEL ".\\result\\lba.txt"
 copy /y ".\\original\\PSX.EXE" ".\\"
 utility\bioclone dmyfile 2048 ".\\BOOT.BIN"
 
-armips psx.s -temp result\\Executable.txt >> result\\Executable.log
+armips executable.s -temp result\\Executable.txt >> result\\Executable.log
 
 move /y ".\\PSX.EXE" ".\\disc"
 move /y ".\\BOOT.BIN" ".\\disc\\BINARY"
