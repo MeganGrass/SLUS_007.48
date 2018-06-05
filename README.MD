@@ -12,13 +12,19 @@ An open-source modification of Resident Evil 2 Dual Shock [SLUS-00748] using MIP
 
 # Build Instructions
 01 -- Extract contents of the following to C:\BioDSZ
+
 utility.zip
+
 "armips-v0.10.0-windows-x86.7z\\armips.exe"
+
 "SLUS_007.48-master.zip\\SLUS_007.48-master"
 
 02 -- Copy following files from the Sony PlayStation PSYQ SDK (not included) to C:\BioDSZ\utility
+
 LICENSEA.DAT
+
 LICENSEE.DAT
+
 LICENSEJ.DAT
 
 03 -- Extract contents of "github005.7z\\disc.bin" ISO to C:\BioDSZ\disc
