@@ -1,12 +1,12 @@
-# Resident Evil 2 Assembly Programming
+# Resident Evil 2 Dis/Assembly Programming
 An open-source modification of Resident Evil 2 Dual Shock [SLUS-00748] using MIPS R3000A assembly customizations.
 
 # Prerequisite
 [Kingcom/armips](https://github.com/Kingcom/armips)
 
-[Lameguy64/mkpsxiso](https://github.com/Lameguy64/mkpsxiso)
+[Lameguy64/mkpsxiso](https://github.com/Lameguy64/mkpsxiso) Lameguy64 listed here for credit; mkpsxiso is built into toolchain (test.exe)
 
-[Toolchain](https://drive.google.com/open?id=1UNfnZ25LdRhkM3ps29e28KgGgnBHhNgg) Lameguy64's mkpsxiso is built into "test.exe"
+[Toolchain](https://drive.google.com/open?id=1UNfnZ25LdRhkM3ps29e28KgGgnBHhNgg)
 
 [github005 build](https://drive.google.com/open?id=1hzkO6FwNGXOeWKFrVlBe0liW4-pvijwo)
 
@@ -40,13 +40,14 @@ LICENSEJ.DAT
 *** Steps 3, 4 and 5 are deprecated and these instructions will be updated soon
 
 # Version
-005, 2018-06-05		Updated Readme, Bugfixes
-001, 2018-06-04		Initial Release
+Commit 5, 2018-06-05		Updated Readme, Bugfixes
+
+Commit 1, 2018-06-04		Initial Release
 
 # Example
-[Test Builds](https://drive.google.com/open?id=1kJJg2AaBf3CexkkPqAhNYf5x_-0q7i6x)
+[Older Test Builds](https://drive.google.com/open?id=1kJJg2AaBf3CexkkPqAhNYf5x_-0q7i6x)
 
-[YouTube](https://www.youtube.com/channel/UCGA0gJMStIiYJXGaUq6sMDA/videos?view_as=subscriber)
+[YouTube Videos](https://www.youtube.com/channel/UCGA0gJMStIiYJXGaUq6sMDA/videos?view_as=subscriber)
 
 # Information
 
