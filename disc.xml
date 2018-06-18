@@ -2,314 +2,314 @@
 
 <iso_project image_name="disc.bin" cue_sheet="disc.cue">
   <track type="data">
-  <identifiers
-  system        ="PLAYSTATION"
-  application   ="PLAYSTATION"
-  volume        ="BIOREMIX"
-  volume_set    ="BIOREMIX"
-  publisher     ="CAPCOM Co., Ltd."
-  data_preparer ="CAPCOM Co., Ltd."
+    <identifiers
+    system        ="PLAYSTATION"
+    application   ="PLAYSTATION"
+    volume        ="BIOREMIX"
+    volume_set    ="BIOREMIX"
+    publisher     ="CAPCOM Co., Ltd."
+    data_preparer ="CAPCOM Co., Ltd."
   />
-  <license file="C:\BioDSZ\utility\LICENSEA.DAT"/>
-  <directory_tree>
+    <license file="C:\BioDSZ\utility\LICENSEA.DAT"/>
+    <directory_tree>
 
-  <dir name="BINARY">
-  <file name="AREA.BIN" type="data" source="C:\BioDSZ\disc\BINARY\AREA.BIN"/>
-  <file name="BOOT.BIN" type="data" source="C:\BioDSZ\disc\BINARY\BOOT.BIN"/>
-  <file name="DEBUG.BIN" type="data" source="C:\BioDSZ\disc\BINARY\DEBUG.BIN"/>
-  <file name="DIEDEMO.BIN" type="data" source="C:\BioDSZ\disc\BINARY\DIEDEMO.BIN"/>
-  <file name="ZNULL04.BIN" type="data" source="C:\BioDSZ\disc\BINARY\ZNULL04.BIN"/>
-  <file name="ZNULL05.BIN" type="data" source="C:\BioDSZ\disc\BINARY\ZNULL05.BIN"/>
-  <file name="ZNULL06.BIN" type="data" source="C:\BioDSZ\disc\BINARY\ZNULL06.BIN"/>
-  <file name="ZNULL07.BIN" type="data" source="C:\BioDSZ\disc\BINARY\ZNULL07.BIN"/>
-  <file name="ZNULL08.BIN" type="data" source="C:\BioDSZ\disc\BINARY\ZNULL08.BIN"/>
-  <file name="ZNULL09.BIN" type="data" source="C:\BioDSZ\disc\BINARY\ZNULL09.BIN"/>
-  <file name="ZNULL0A.BIN" type="data" source="C:\BioDSZ\disc\BINARY\ZNULL0A.BIN"/>
-  <file name="ZNULL0B.BIN" type="data" source="C:\BioDSZ\disc\BINARY\ZNULL0B.BIN"/>
-  <file name="ZNULL0C.BIN" type="data" source="C:\BioDSZ\disc\BINARY\ZNULL0C.BIN"/>
-  </dir>
+      <dir name="BIN">
+        <file name="AREA.BIN" type="data" source="C:\BioDSZ\disc\BINARY\BIO2.BIN"/>
+        <file name="BOOT.BIN" type="data" source="C:\BioDSZ\disc\BINARY\BOOT.BIN"/>
+        <file name="CONFIG.BIN" type="data" source="C:\BioDSZ\disc\BINARY\CONFIG.BIN"/>
+        <file name="DEBUG.BIN" type="data" source="C:\BioDSZ\disc\BINARY\DEBUG.BIN"/>
+        <file name="DIEDEMO.BIN" type="data" source="C:\BioDSZ\disc\BINARY\DIEDEMO.BIN"/>
+        <file name="ENDING.BIN" type="data" source="C:\BioDSZ\disc\BINARY\ENDING.BIN"/>
+        <file name="MEM_CARD.BIN" type="data" source="C:\BioDSZ\disc\BINARY\MEM_CARD.BIN"/>
+        <file name="OPENING.BIN" type="data" source="C:\BioDSZ\disc\BINARY\OPENING.BIN"/>
+        <file name="RESULT.BIN" type="data" source="C:\BioDSZ\disc\BINARY\RESULT.BIN"/>
+        <file name="SELECT.BIN" type="data" source="C:\BioDSZ\disc\BINARY\SELECT.BIN"/>
+        <file name="TITLE.BIN" type="data" source="C:\BioDSZ\disc\BINARY\TITLE.BIN"/>
+      </dir>
 
-  <dir name="BSS">
-  <file name="ZERO.TIM" type="data" source="C:\BioDSZ\disc\BSS\ZERO.TIM"/>
-  <file name="BH2PTIT.TIM" type="data" source="C:\BioDSZ\disc\BSS\BH2PTIT.TIM"/>
-  <file name="BH3TIT.TIM" type="data" source="C:\BioDSZ\disc\BSS\BH3TIT.TIM"/>
-  <file name="CAPCOM.TIM" type="data" source="C:\BioDSZ\disc\BSS\CAPCOM.TIM"/>
-  <file name="YOUDIED.TIM" type="data" source="C:\BioDSZ\disc\BSS\YOUDIED.TIM"/>
-  <file name="ROOM101.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM102.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM103.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM104.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM105.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM106.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM107.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM108.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM109.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM10A.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM10B.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM10C.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM10D.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM10E.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM10F.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM110.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM111.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM112.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM113.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM114.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM115.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM116.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM117.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM118.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM119.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM11A.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM11B.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM11C.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM11D.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM200.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM201.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM202.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM203.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM204.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM205.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM206.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM207.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM208.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM209.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM20A.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM20B.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM20C.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM20D.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM20E.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM20F.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM210.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM211.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM212.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM213.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM214.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM215.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM216.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM219.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM21A.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM21B.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM300.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM301.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM302.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM303.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM304.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM305.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM306.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM307.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM308.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM309.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM30A.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM30B.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM30C.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM30D.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM400.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM401.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM402.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM403.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM404.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM405.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM407.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM408.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM409.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM40A.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM40B.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM40C.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM40D.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM40E.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM40F.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM410.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM500.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM501.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM502.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM503.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM504.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM505.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM506.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM507.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM508.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM509.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM600.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM601.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM602.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM603.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM604.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM605.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM606.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM607.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM608.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM609.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM60A.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM60B.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM60C.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM60D.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM60E.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM60F.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM610.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM611.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM612.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM613.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM614.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM615.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM616.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM617.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM700.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM701.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  <file name="ROOM702.BSS" type="data" source="C:\BioDSZ\asset\dummy.file"/>
-  </dir>
+      <dir name="BSS">
+        <file name="CAPCOM.TIM" type="data" source="C:\BioDSZ\disc\DATA_EX\CAPCOM.TIM"/>
+        <file name="DEMO00.DAT" type="data" source="C:\BioDSZ\disc\DATA_EX\PDEMO00.DAT"/>
+        <file name="DEMO01.DAT" type="data" source="C:\BioDSZ\disc\DATA_EX\PDEMO01.DAT"/>
+        <file name="DEMO02.DAT" type="data" source="C:\BioDSZ\disc\DATA_EX\PDEMO02.DAT"/>
+        <file name="DEMO10.DAT" type="data" source="C:\BioDSZ\disc\DATA_EX\PDEMO10.DAT"/>
+        <file name="DEMO11.DAT" type="data" source="C:\BioDSZ\disc\DATA_EX\PDEMO11.DAT"/>
+        <file name="DEMO12.DAT" type="data" source="C:\BioDSZ\disc\DATA_EX\PDEMO12.DAT"/>
+        <file name="ROOM800.SND" type="data" source="C:\BioDSZ\disc\DATA_EX\ROOM800.SND"/>
+        <file name="TITLE.TIM" type="data" source="C:\BioDSZ\disc\DATA_EX\TITLE_BIO2.TIM"/>
+        <file name="ZNULL08.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL09.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL0A.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL0B.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL0C.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL0D.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL0E.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL0F.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL10.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL11.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL12.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL13.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL14.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL15.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL16.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL17.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL18.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL19.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL1A.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL1B.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL1C.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL1D.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL1E.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL1F.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL20.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL21.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL22.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL23.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL24.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL25.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL26.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL27.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL28.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL29.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL2A.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL2B.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL2C.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL2D.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL2E.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL2F.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL30.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL31.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL32.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL33.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL34.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL35.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL36.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL37.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL38.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL39.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL3A.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL3B.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL3C.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL3D.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL3E.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL3F.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL40.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL41.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL42.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL43.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL44.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL45.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL46.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL47.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL48.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL49.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL4A.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL4B.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL4C.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL4D.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL4E.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL4F.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL50.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL51.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL52.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL53.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL54.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL55.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL56.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL57.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL58.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL59.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL5A.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL5B.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL5C.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL5D.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL5E.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL5F.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL60.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL61.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL62.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL63.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL64.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL65.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL66.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL67.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL68.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL69.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL6A.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL6B.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL6C.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL6D.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL6E.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL6F.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL70.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL71.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL72.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL73.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL74.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL75.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL76.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL77.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL78.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL79.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL7A.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL7B.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL7C.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL7D.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL7E.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+        <file name="ZNULL7F.BIN" type="data" source="C:\BioDSZ\asset\dummy.file"/>
+      </dir>
 
-  <dir name="DATA">
-  <file name="CLEAR1.PIX" type="data" source="C:\BioDSZ\disc\DATA\CLEAR1.PIX"/>
-  <file name="CLEAR2.PIX" type="data" source="C:\BioDSZ\disc\DATA\CLEAR2.PIX"/>
-  <file name="COLOR.TIM" type="data" source="C:\BioDSZ\disc\DATA\COLOR.TIM"/>
-  <file name="CONFIG.TIM" type="data" source="C:\BioDSZ\disc\DATA\CONFIG.TIM"/>
-  <file name="CORE00.ESP" type="data" source="C:\BioDSZ\disc\DATA\CORE00.ESP"/>
-  <file name="CORE01.TIM" type="data" source="C:\BioDSZ\disc\DATA\CORE01.TIM"/>
-  <file name="DIED00.DIE" type="data" source="C:\BioDSZ\disc\DATA\DIED00.DIE"/>
-  <file name="DIED01.DIE" type="data" source="C:\BioDSZ\disc\DATA\DIED01.DIE"/>
-  <file name="DIED0B.DIE" type="data" source="C:\BioDSZ\disc\DATA\DIED0B.DIE"/>
-  <file name="DIED0C.DIE" type="data" source="C:\BioDSZ\disc\DATA\DIED0C.DIE"/>
-  <file name="DIED0D.DIE" type="data" source="C:\BioDSZ\disc\DATA\DIED0D.DIE"/>
-  <file name="DIED0E.DIE" type="data" source="C:\BioDSZ\disc\DATA\DIED0E.DIE"/>
-  <file name="DIED0F.DIE" type="data" source="C:\BioDSZ\disc\DATA\DIED0F.DIE"/>
-  <file name="END00.TIM" type="data" source="C:\BioDSZ\disc\DATA\END00.TIM"/>
-  <file name="END10.TIM" type="data" source="C:\BioDSZ\disc\DATA\END10.TIM"/>
-  <file name="END11.TIM" type="data" source="C:\BioDSZ\disc\DATA\END11.TIM"/>
-  <file name="END12.TIM" type="data" source="C:\BioDSZ\disc\DATA\END12.TIM"/>
-  <file name="END13.TIM" type="data" source="C:\BioDSZ\disc\DATA\END13.TIM"/>
-  <file name="END14.TIM" type="data" source="C:\BioDSZ\disc\DATA\END14.TIM"/>
-  <file name="END15.TIM" type="data" source="C:\BioDSZ\disc\DATA\END15.TIM"/>
-  <file name="END16.TIM" type="data" source="C:\BioDSZ\disc\DATA\END16.TIM"/>
-  <file name="END17.TIM" type="data" source="C:\BioDSZ\disc\DATA\END17.TIM"/>
-  <file name="END18.TIM" type="data" source="C:\BioDSZ\disc\DATA\END18.TIM"/>
-  <file name="END19.TIM" type="data" source="C:\BioDSZ\disc\DATA\END19.TIM"/>
-  <file name="EXTITLE.TIM" type="data" source="C:\BioDSZ\disc\DATA\EXTITLE.TIM"/>
-  <file name="EXTITLE1.TIM" type="data" source="C:\BioDSZ\disc\DATA\EXTITLE1.TIM"/>
-  <file name="FILES.TIM" type="data" source="C:\BioDSZ\disc\DATA\FILES.TIM"/>
-  <file name="GWARNING.TIM" type="data" source="C:\BioDSZ\disc\DATA\GWARNING.TIM"/>
-  <file name="INIT_TBL.DAT" type="data" source="C:\BioDSZ\disc\DATA\INIT_TBL.DAT"/>
-  <file name="ITEMALL.PIX" type="data" source="C:\BioDSZ\disc\DATA\ITEMALL.PIX"/>
-  <file name="ITPS.ITP" type="data" source="C:\BioDSZ\disc\DATA\ITPS.ITP"/>
-  <file name="MAPS.PIX" type="data" source="C:\BioDSZ\disc\DATA\MAPS.PIX"/>
-  <file name="MIX.PIX" type="data" source="C:\BioDSZ\disc\DATA\MIX.PIX"/>
-  <file name="OPEN00.TIM" type="data" source="C:\BioDSZ\disc\DATA\OPEN00.TIM"/>
-  <file name="OPEN01.TIM" type="data" source="C:\BioDSZ\disc\DATA\OPEN01.TIM"/>
-  <file name="OPEN02.TIM" type="data" source="C:\BioDSZ\disc\DATA\OPEN02.TIM"/>
-  <file name="OPEN03.TIM" type="data" source="C:\BioDSZ\disc\DATA\OPEN03.TIM"/>
-  <file name="OPEN04.TIM" type="data" source="C:\BioDSZ\disc\DATA\OPEN04.TIM"/>
-  <file name="OPEN05.TIM" type="data" source="C:\BioDSZ\disc\DATA\OPEN05.TIM"/>
-  <file name="OPEN06.TIM" type="data" source="C:\BioDSZ\disc\DATA\OPEN06.TIM"/>
-  <file name="OPEN07.TIM" type="data" source="C:\BioDSZ\disc\DATA\OPEN07.TIM"/>
-  <file name="OPEN10.TIM" type="data" source="C:\BioDSZ\disc\DATA\OPEN10.TIM"/>
-  <file name="OPEN11.TIM" type="data" source="C:\BioDSZ\disc\DATA\OPEN11.TIM"/>
-  <file name="OPEN12.TIM" type="data" source="C:\BioDSZ\disc\DATA\OPEN12.TIM"/>
-  <file name="OPEN13.TIM" type="data" source="C:\BioDSZ\disc\DATA\OPEN13.TIM"/>
-  <file name="OPEN14.TIM" type="data" source="C:\BioDSZ\disc\DATA\OPEN14.TIM"/>
-  <file name="OPNC.CPT" type="data" source="C:\BioDSZ\disc\DATA\OPNC.CPT"/>
-  <file name="OPNL.CPT" type="data" source="C:\BioDSZ\disc\DATA\OPNL.CPT"/>
-  <file name="OPNW.CPT" type="data" source="C:\BioDSZ\disc\DATA\OPNW.CPT"/>
-  <file name="PADDDSU.TIM" type="data" source="C:\BioDSZ\disc\DATA\PADDDSU.TIM"/>
-  <file name="PADDU.TIM" type="data" source="C:\BioDSZ\disc\DATA\PADDU.TIM"/>
-  <file name="R108.CPT" type="data" source="C:\BioDSZ\disc\DATA\R108.CPT"/>
-  <file name="R204C16.PIX" type="data" source="C:\BioDSZ\disc\DATA\R204C16.PIX"/>
-  <file name="R204L16.PIX" type="data" source="C:\BioDSZ\disc\DATA\R204L16.PIX"/>
-  <file name="R40X.CPT" type="data" source="C:\BioDSZ\disc\DATA\R40X.CPT"/>
-  <file name="R700C.CPT" type="data" source="C:\BioDSZ\disc\DATA\R700C.CPT"/>
-  <file name="R700L.CPT" type="data" source="C:\BioDSZ\disc\DATA\R700L.CPT"/>
-  <file name="R703C.CPT" type="data" source="C:\BioDSZ\disc\DATA\R703C.CPT"/>
-  <file name="R703L.CPT" type="data" source="C:\BioDSZ\disc\DATA\R703L.CPT"/>
-  <file name="R704C.CPT" type="data" source="C:\BioDSZ\disc\DATA\R704C.CPT"/>
-  <file name="R704L.CPT" type="data" source="C:\BioDSZ\disc\DATA\R704L.CPT"/>
-  <file name="RES_MOJI.TIM" type="data" source="C:\BioDSZ\disc\DATA\RES_MOJI.TIM"/>
-  <file name="RESULT.TIM" type="data" source="C:\BioDSZ\disc\DATA\RESULT.TIM"/>
-  <file name="SELECT.TIM" type="data" source="C:\BioDSZ\disc\DATA\SELECT.TIM"/>
-  <file name="SELECTH.TIM" type="data" source="C:\BioDSZ\disc\DATA\SELECTH.TIM"/>
-  <file name="SELECTH2.TIM" type="data" source="C:\BioDSZ\disc\DATA\SELECTH2.TIM"/>
-  <file name="SELECTH3.TIM" type="data" source="C:\BioDSZ\disc\DATA\SELECTH3.TIM"/>
-  <file name="SELECT_B.TIM" type="data" source="C:\BioDSZ\disc\DATA\SELECT_B.TIM"/>
-  <file name="SELECT_W.TIM" type="data" source="C:\BioDSZ\disc\DATA\SELECT_W.TIM"/>
-  <file name="SPY_LOGO.TIM" type="data" source="C:\BioDSZ\disc\DATA\SPY_LOGO.TIM"/>
-  <file name="ST0.TIM" type="data" source="C:\BioDSZ\disc\DATA\ST0.TIM"/>
-  <file name="ST1.TIM" type="data" source="C:\BioDSZ\disc\DATA\ST1.TIM"/>
-  <file name="ST1_.TIM" type="data" source="C:\BioDSZ\disc\DATA\ST1_.TIM"/>
-  <file name="ST1_FONT.TIM" type="data" source="C:\BioDSZ\disc\DATA\ST1_FONT.TIM"/>
-  <file name="ST2_FONT.TIM" type="data" source="C:\BioDSZ\disc\DATA\ST2_FONT.TIM"/>
-  <file name="ST3_FONT.TIM" type="data" source="C:\BioDSZ\disc\DATA\ST3_FONT.TIM"/>
-  <file name="ST4_FONT.TIM" type="data" source="C:\BioDSZ\disc\DATA\ST4_FONT.TIM"/>
-  <file name="ST5_FONT.TIM" type="data" source="C:\BioDSZ\disc\DATA\ST5_FONT.TIM"/>
-  <file name="ST6_FONT.TIM" type="data" source="C:\BioDSZ\disc\DATA\ST6_FONT.TIM"/>
-  <file name="ST7_FONT.TIM" type="data" source="C:\BioDSZ\disc\DATA\ST7_FONT.TIM"/>
-  <file name="ST_FILE.TIM" type="data" source="C:\BioDSZ\disc\DATA\ST_FILE.TIM"/>
-  <file name="ST_FILE.TM2" type="data" source="C:\BioDSZ\disc\DATA\ST_FILE.TM2"/>
-  <file name="ST_FILE.TS" type="data" source="C:\BioDSZ\disc\DATA\ST_FILE.TS"/>
-  <file name="ST_MOJI.TIM" type="data" source="C:\BioDSZ\disc\DATA\ST_MOJI.TIM"/>
-  <file name="STG.NXT" type="data" source="C:\BioDSZ\disc\DATA\STG.NXT"/>
-  <file name="TEX.TIM" type="data" source="C:\BioDSZ\disc\DATA\TEX.TIM"/>
-  <file name="TEX_PAL.TIM" type="data" source="C:\BioDSZ\disc\DATA\TEX_PAL.TIM"/>
-  <file name="TITLE_O.TIM" type="data" source="C:\BioDSZ\disc\DATA\TITLE_O.TIM"/>
-  <file name="TITLE_O2.TIM" type="data" source="C:\BioDSZ\disc\DATA\TITLE_O2.TIM"/>
-  <file name="TIT_BG.TIM" type="data" source="C:\BioDSZ\disc\DATA\TIT_BG.TIM"/>
-  <file name="TMOJI.TIM" type="data" source="C:\BioDSZ\disc\DATA\TMOJI.TIM"/>
-  <file name="TOFULOGO.TIM" type="data" source="C:\BioDSZ\disc\DATA\TOFULOGO.TIM"/>
-  <file name="TYPE00.PIX" type="data" source="C:\BioDSZ\disc\DATA\TYPE00.PIX"/>
-  <file name="WARNING.TIM" type="data" source="C:\BioDSZ\disc\DATA\WARNING.TIM"/>
-  </dir>
+      <dir name="DATA">
+        <file name="CLEAR1.PIX" type="data" source="C:\BioDSZ\disc\DATA\CLEAR1.PIX"/>
+        <file name="CLEAR2.PIX" type="data" source="C:\BioDSZ\disc\DATA\CLEAR2.PIX"/>
+        <file name="COLOR.TIM" type="data" source="C:\BioDSZ\disc\DATA\COLOR.TIM"/>
+        <file name="CONFIG.TIM" type="data" source="C:\BioDSZ\disc\DATA\CONFIG.TIM"/>
+        <file name="CORE00.ESP" type="data" source="C:\BioDSZ\disc\DATA\CORE00.ESP"/>
+        <file name="CORE01.TIM" type="data" source="C:\BioDSZ\disc\DATA\CORE01.TIM"/>
+        <file name="DIED00.DIE" type="data" source="C:\BioDSZ\disc\DATA\DIED00.DIE"/>
+        <file name="DIED01.DIE" type="data" source="C:\BioDSZ\disc\DATA\DIED01.DIE"/>
+        <file name="DIED0B.DIE" type="data" source="C:\BioDSZ\disc\DATA\DIED0B.DIE"/>
+        <file name="DIED0C.DIE" type="data" source="C:\BioDSZ\disc\DATA\DIED0C.DIE"/>
+        <file name="DIED0D.DIE" type="data" source="C:\BioDSZ\disc\DATA\DIED0D.DIE"/>
+        <file name="DIED0E.DIE" type="data" source="C:\BioDSZ\disc\DATA\DIED0E.DIE"/>
+        <file name="DIED0F.DIE" type="data" source="C:\BioDSZ\disc\DATA\DIED0F.DIE"/>
+        <file name="END00.TIM" type="data" source="C:\BioDSZ\disc\DATA\END00.TIM"/>
+        <file name="END10.TIM" type="data" source="C:\BioDSZ\disc\DATA\END10.TIM"/>
+        <file name="END11.TIM" type="data" source="C:\BioDSZ\disc\DATA\END11.TIM"/>
+        <file name="END12.TIM" type="data" source="C:\BioDSZ\disc\DATA\END12.TIM"/>
+        <file name="END13.TIM" type="data" source="C:\BioDSZ\disc\DATA\END13.TIM"/>
+        <file name="END14.TIM" type="data" source="C:\BioDSZ\disc\DATA\END14.TIM"/>
+        <file name="END15.TIM" type="data" source="C:\BioDSZ\disc\DATA\END15.TIM"/>
+        <file name="END16.TIM" type="data" source="C:\BioDSZ\disc\DATA\END16.TIM"/>
+        <file name="END17.TIM" type="data" source="C:\BioDSZ\disc\DATA\END17.TIM"/>
+        <file name="END18.TIM" type="data" source="C:\BioDSZ\disc\DATA\END18.TIM"/>
+        <file name="END19.TIM" type="data" source="C:\BioDSZ\disc\DATA\END19.TIM"/>
+        <file name="EXTITLE.TIM" type="data" source="C:\BioDSZ\disc\DATA\EXTITLE.TIM"/>
+        <file name="EXTITLE1.TIM" type="data" source="C:\BioDSZ\disc\DATA\EXTITLE1.TIM"/>
+        <file name="FILES.TIM" type="data" source="C:\BioDSZ\disc\DATA\FILES.TIM"/>
+        <file name="GWARNING.TIM" type="data" source="C:\BioDSZ\disc\DATA\GWARNING.TIM"/>
+        <file name="INIT_TBL.DAT" type="data" source="C:\BioDSZ\disc\DATA\INIT_TBL.DAT"/>
+        <file name="ITEMALL.PIX" type="data" source="C:\BioDSZ\disc\DATA\ITEMALL.PIX"/>
+        <file name="ITPS.ITP" type="data" source="C:\BioDSZ\disc\DATA\ITPS.ITP"/>
+        <file name="MAPS.PIX" type="data" source="C:\BioDSZ\disc\DATA\MAPS.PIX"/>
+        <file name="MIX.PIX" type="data" source="C:\BioDSZ\disc\DATA\MIX.PIX"/>
+        <file name="OPEN00.TIM" type="data" source="C:\BioDSZ\disc\DATA\OPEN00.TIM"/>
+        <file name="OPEN01.TIM" type="data" source="C:\BioDSZ\disc\DATA\OPEN01.TIM"/>
+        <file name="OPEN02.TIM" type="data" source="C:\BioDSZ\disc\DATA\OPEN02.TIM"/>
+        <file name="OPEN03.TIM" type="data" source="C:\BioDSZ\disc\DATA\OPEN03.TIM"/>
+        <file name="OPEN04.TIM" type="data" source="C:\BioDSZ\disc\DATA\OPEN04.TIM"/>
+        <file name="OPEN05.TIM" type="data" source="C:\BioDSZ\disc\DATA\OPEN05.TIM"/>
+        <file name="OPEN06.TIM" type="data" source="C:\BioDSZ\disc\DATA\OPEN06.TIM"/>
+        <file name="OPEN07.TIM" type="data" source="C:\BioDSZ\disc\DATA\OPEN07.TIM"/>
+        <file name="OPEN10.TIM" type="data" source="C:\BioDSZ\disc\DATA\OPEN10.TIM"/>
+        <file name="OPEN11.TIM" type="data" source="C:\BioDSZ\disc\DATA\OPEN11.TIM"/>
+        <file name="OPEN12.TIM" type="data" source="C:\BioDSZ\disc\DATA\OPEN12.TIM"/>
+        <file name="OPEN13.TIM" type="data" source="C:\BioDSZ\disc\DATA\OPEN13.TIM"/>
+        <file name="OPEN14.TIM" type="data" source="C:\BioDSZ\disc\DATA\OPEN14.TIM"/>
+        <file name="OPNC.CPT" type="data" source="C:\BioDSZ\disc\DATA\OPNC.CPT"/>
+        <file name="OPNL.CPT" type="data" source="C:\BioDSZ\disc\DATA\OPNL.CPT"/>
+        <file name="OPNW.CPT" type="data" source="C:\BioDSZ\disc\DATA\OPNW.CPT"/>
+        <file name="PADDDSU.TIM" type="data" source="C:\BioDSZ\disc\DATA\PADDDSU.TIM"/>
+        <file name="PADDU.TIM" type="data" source="C:\BioDSZ\disc\DATA\PADDU.TIM"/>
+        <file name="R108.CPT" type="data" source="C:\BioDSZ\disc\DATA\R108.CPT"/>
+        <file name="R204C16.PIX" type="data" source="C:\BioDSZ\disc\DATA\R204C16.PIX"/>
+        <file name="R204L16.PIX" type="data" source="C:\BioDSZ\disc\DATA\R204L16.PIX"/>
+        <file name="R40X.CPT" type="data" source="C:\BioDSZ\disc\DATA\R40X.CPT"/>
+        <file name="R700C.CPT" type="data" source="C:\BioDSZ\disc\DATA\R700C.CPT"/>
+        <file name="R700L.CPT" type="data" source="C:\BioDSZ\disc\DATA\R700L.CPT"/>
+        <file name="R703C.CPT" type="data" source="C:\BioDSZ\disc\DATA\R703C.CPT"/>
+        <file name="R703L.CPT" type="data" source="C:\BioDSZ\disc\DATA\R703L.CPT"/>
+        <file name="R704C.CPT" type="data" source="C:\BioDSZ\disc\DATA\R704C.CPT"/>
+        <file name="R704L.CPT" type="data" source="C:\BioDSZ\disc\DATA\R704L.CPT"/>
+        <file name="RES_MOJI.TIM" type="data" source="C:\BioDSZ\disc\DATA\RES_MOJI.TIM"/>
+        <file name="RESULT.TIM" type="data" source="C:\BioDSZ\disc\DATA\RESULT.TIM"/>
+        <file name="SELECT.TIM" type="data" source="C:\BioDSZ\disc\DATA\SELECT.TIM"/>
+        <file name="SELECTH.TIM" type="data" source="C:\BioDSZ\disc\DATA\SELECTH.TIM"/>
+        <file name="SELECTH2.TIM" type="data" source="C:\BioDSZ\disc\DATA\SELECTH2.TIM"/>
+        <file name="SELECTH3.TIM" type="data" source="C:\BioDSZ\disc\DATA\SELECTH3.TIM"/>
+        <file name="SELECT_B.TIM" type="data" source="C:\BioDSZ\disc\DATA\SELECT_B.TIM"/>
+        <file name="SELECT_W.TIM" type="data" source="C:\BioDSZ\disc\DATA\SELECT_W.TIM"/>
+        <file name="SPY_LOGO.TIM" type="data" source="C:\BioDSZ\disc\DATA\SPY_LOGO.TIM"/>
+        <file name="ST0.TIM" type="data" source="C:\BioDSZ\disc\DATA\ST0.TIM"/>
+        <file name="ST1.TIM" type="data" source="C:\BioDSZ\disc\DATA\ST1.TIM"/>
+        <file name="ST1_.TIM" type="data" source="C:\BioDSZ\disc\DATA\ST1_.TIM"/>
+        <file name="ST1_FONT.TIM" type="data" source="C:\BioDSZ\disc\DATA\ST1_FONT.TIM"/>
+        <file name="ST2_FONT.TIM" type="data" source="C:\BioDSZ\disc\DATA\ST2_FONT.TIM"/>
+        <file name="ST3_FONT.TIM" type="data" source="C:\BioDSZ\disc\DATA\ST3_FONT.TIM"/>
+        <file name="ST4_FONT.TIM" type="data" source="C:\BioDSZ\disc\DATA\ST4_FONT.TIM"/>
+        <file name="ST5_FONT.TIM" type="data" source="C:\BioDSZ\disc\DATA\ST5_FONT.TIM"/>
+        <file name="ST6_FONT.TIM" type="data" source="C:\BioDSZ\disc\DATA\ST6_FONT.TIM"/>
+        <file name="ST7_FONT.TIM" type="data" source="C:\BioDSZ\disc\DATA\ST7_FONT.TIM"/>
+        <file name="ST_FILE.TIM" type="data" source="C:\BioDSZ\disc\DATA\ST_FILE.TIM"/>
+        <file name="ST_FILE.TM2" type="data" source="C:\BioDSZ\disc\DATA\ST_FILE.TM2"/>
+        <file name="ST_FILE.TS" type="data" source="C:\BioDSZ\disc\DATA\ST_FILE.TS"/>
+        <file name="ST_MOJI.TIM" type="data" source="C:\BioDSZ\disc\DATA\ST_MOJI.TIM"/>
+        <file name="STG.NXT" type="data" source="C:\BioDSZ\disc\DATA\STG.NXT"/>
+        <file name="TEX.TIM" type="data" source="C:\BioDSZ\disc\DATA\TEX.TIM"/>
+        <file name="TEX_PAL.TIM" type="data" source="C:\BioDSZ\disc\DATA\TEX_PAL.TIM"/>
+        <file name="TITLE_O.TIM" type="data" source="C:\BioDSZ\disc\DATA\TITLE_O.TIM"/>
+        <file name="TITLE_O2.TIM" type="data" source="C:\BioDSZ\disc\DATA\TITLE_O2.TIM"/>
+        <file name="TIT_BG.TIM" type="data" source="C:\BioDSZ\disc\DATA\TIT_BG.TIM"/>
+        <file name="TMOJI.TIM" type="data" source="C:\BioDSZ\disc\DATA\TMOJI.TIM"/>
+        <file name="TOFULOGO.TIM" type="data" source="C:\BioDSZ\disc\DATA\TOFULOGO.TIM"/>
+        <file name="TYPE00.PIX" type="data" source="C:\BioDSZ\disc\DATA\TYPE00.PIX"/>
+        <file name="WARNING.TIM" type="data" source="C:\BioDSZ\disc\DATA\WARNING.TIM"/>
+      </dir>
 
-  <dir name="ZERO" srcdir="C:\BioDSZ\disc\ZERO">
-  <file name="BSS01.CDX" type="data"/>
-  <file name="BSS02.CDX" type="data"/>
-  <file name="BSS03.CDX" type="data"/>
-  <file name="BSS04.CDX" type="data"/>
-  <file name="BSS05.CDX" type="data"/>
-  <file name="BSS06.CDX" type="data"/>
-  <file name="BSS07.CDX" type="data"/>
-  <file name="DO2.CDX" type="data"/>
-  <file name="EMD00.CDX" type="data"/>
-  <file name="EMD01.CDX" type="data"/>
-  <file name="PLD.CDX" type="data"/>
-  <file name="PLW00.CDX" type="data"/>
-  <file name="PLW01.CDX" type="data"/>
-  <file name="PLW02.CDX" type="data"/>
-  <file name="PLW03.CDX" type="data"/>
-  <file name="PLW04.CDX" type="data"/>
-  <file name="PLW05.CDX" type="data"/>
-  <file name="PLW06.CDX" type="data"/>
-  <file name="PLW07.CDX" type="data"/>
-  <file name="PLW08.CDX" type="data"/>
-  <file name="PLW09.CDX" type="data"/>
-  <file name="PLW0A.CDX" type="data"/>
-  <file name="PLW0B.CDX" type="data"/>
-  <file name="PLW0C.CDX" type="data"/>
-  <file name="PLW0D.CDX" type="data"/>
-  <file name="PLW0E.CDX" type="data"/>
-  <file name="PLW0F.CDX" type="data"/>
-  <file name="SNDARMS.CDX" type="data"/>
-  <file name="SNDCORE.CDX" type="data"/>
-  <file name="SNDEMD.CDX" type="data"/>
-  <file name="SNDMAIN.CDX" type="data"/>
-  <file name="SNDSUB.CDX" type="data"/>
-  <file name="STG0001.CDX" type="data"/>
-  <file name="STG0002.CDX" type="data"/>
-  <file name="STG0003.CDX" type="data"/>
-  <file name="STG0004.CDX" type="data"/>
-  <file name="STG0005.CDX" type="data"/>
-  <file name="STG0006.CDX" type="data"/>
-  <file name="STG0007.CDX" type="data"/>
-  <file name="STG0101.CDX" type="data"/>
-  <file name="STG0102.CDX" type="data"/>
-  <file name="STG0103.CDX" type="data"/>
-  <file name="STG0104.CDX" type="data"/>
-  <file name="STG0105.CDX" type="data"/>
-  <file name="STG0106.CDX" type="data"/>
-  <file name="STG0107.CDX" type="data"/>
-  </dir>
+      <dir name="BIO2">
+        <file name="BSS01.CDX" type="data" source="C:\BioDSZ\disc\BIO2\BSS01.CDX"/>
+        <file name="BSS02.CDX" type="data" source="C:\BioDSZ\disc\BIO2\BSS02.CDX"/>
+        <file name="BSS03.CDX" type="data" source="C:\BioDSZ\disc\BIO2\BSS03.CDX"/>
+        <file name="BSS04.CDX" type="data" source="C:\BioDSZ\disc\BIO2\BSS04.CDX"/>
+        <file name="BSS05.CDX" type="data" source="C:\BioDSZ\disc\BIO2\BSS05.CDX"/>
+        <file name="BSS06.CDX" type="data" source="C:\BioDSZ\disc\BIO2\BSS06.CDX"/>
+        <file name="BSS07.CDX" type="data" source="C:\BioDSZ\disc\BIO2\BSS07.CDX"/>
+        <file name="DO2.CDX" type="data" source="C:\BioDSZ\disc\BIO2\DO2.CDX"/>
+        <file name="EMD00.CDX" type="data" source="C:\BioDSZ\disc\BIO2\EMD00.CDX"/>
+        <file name="EMD01.CDX" type="data" source="C:\BioDSZ\disc\BIO2\EMD01.CDX"/>
+        <file name="PLD.CDX" type="data" source="C:\BioDSZ\disc\BIO2\PLD.CDX"/>
+        <file name="PLW00.CDX" type="data" source="C:\BioDSZ\disc\BIO2\PLW00.CDX"/>
+        <file name="PLW01.CDX" type="data" source="C:\BioDSZ\disc\BIO2\PLW01.CDX"/>
+        <file name="PLW02.CDX" type="data" source="C:\BioDSZ\disc\BIO2\PLW02.CDX"/>
+        <file name="PLW03.CDX" type="data" source="C:\BioDSZ\disc\BIO2\PLW03.CDX"/>
+        <file name="PLW04.CDX" type="data" source="C:\BioDSZ\disc\BIO2\PLW04.CDX"/>
+        <file name="PLW05.CDX" type="data" source="C:\BioDSZ\disc\BIO2\PLW05.CDX"/>
+        <file name="PLW06.CDX" type="data" source="C:\BioDSZ\disc\BIO2\PLW06.CDX"/>
+        <file name="PLW07.CDX" type="data" source="C:\BioDSZ\disc\BIO2\PLW07.CDX"/>
+        <file name="PLW08.CDX" type="data" source="C:\BioDSZ\disc\BIO2\PLW08.CDX"/>
+        <file name="PLW09.CDX" type="data" source="C:\BioDSZ\disc\BIO2\PLW09.CDX"/>
+        <file name="PLW0A.CDX" type="data" source="C:\BioDSZ\disc\BIO2\PLW0A.CDX"/>
+        <file name="PLW0B.CDX" type="data" source="C:\BioDSZ\disc\BIO2\PLW0B.CDX"/>
+        <file name="PLW0C.CDX" type="data" source="C:\BioDSZ\disc\BIO2\PLW0C.CDX"/>
+        <file name="PLW0D.CDX" type="data" source="C:\BioDSZ\disc\BIO2\PLW0D.CDX"/>
+        <file name="PLW0E.CDX" type="data" source="C:\BioDSZ\disc\BIO2\PLW0E.CDX"/>
+        <file name="PLW0F.CDX" type="data" source="C:\BioDSZ\disc\BIO2\PLW0F.CDX"/>
+        <file name="SNDARMS.CDX" type="data" source="C:\BioDSZ\disc\BIO2\SNDARMS.CDX"/>
+        <file name="SNDCORE.CDX" type="data" source="C:\BioDSZ\disc\BIO2\SNDCORE.CDX"/>
+        <file name="SNDEMD.CDX" type="data" source="C:\BioDSZ\disc\BIO2\SNDEMD.CDX"/>
+        <file name="SNDMAIN.CDX" type="data" source="C:\BioDSZ\disc\BIO2\SNDMAIN.CDX"/>
+        <file name="SNDSUB.CDX" type="data" source="C:\BioDSZ\disc\BIO2\SNDSUB.CDX"/>
+        <file name="STG0001.CDX" type="data" source="C:\BioDSZ\disc\BIO2\STG0001.CDX"/>
+        <file name="STG0002.CDX" type="data" source="C:\BioDSZ\disc\BIO2\STG0002.CDX"/>
+        <file name="STG0003.CDX" type="data" source="C:\BioDSZ\disc\BIO2\STG0003.CDX"/>
+        <file name="STG0004.CDX" type="data" source="C:\BioDSZ\disc\BIO2\STG0004.CDX"/>
+        <file name="STG0005.CDX" type="data" source="C:\BioDSZ\disc\BIO2\STG0005.CDX"/>
+        <file name="STG0006.CDX" type="data" source="C:\BioDSZ\disc\BIO2\STG0006.CDX"/>
+        <file name="STG0007.CDX" type="data" source="C:\BioDSZ\disc\BIO2\STG0007.CDX"/>
+        <file name="STG0101.CDX" type="data" source="C:\BioDSZ\disc\BIO2\STG0101.CDX"/>
+        <file name="STG0102.CDX" type="data" source="C:\BioDSZ\disc\BIO2\STG0102.CDX"/>
+        <file name="STG0103.CDX" type="data" source="C:\BioDSZ\disc\BIO2\STG0103.CDX"/>
+        <file name="STG0104.CDX" type="data" source="C:\BioDSZ\disc\BIO2\STG0104.CDX"/>
+        <file name="STG0105.CDX" type="data" source="C:\BioDSZ\disc\BIO2\STG0105.CDX"/>
+        <file name="STG0106.CDX" type="data" source="C:\BioDSZ\disc\BIO2\STG0106.CDX"/>
+        <file name="STG0107.CDX" type="data" source="C:\BioDSZ\disc\BIO2\STG0107.CDX"/>
+      </dir>
 
-  <file name="PSX.EXE" type="data"	source="C:\BioDSZ\disc\PSX.EXE"/>
-  <file name="SYSTEM.CNF" type="data"	source="C:\BioDSZ\disc\SYSTEM.CNF"/>
-  <file name="ZNULL.DAT" type="data"	source="C:\BioDSZ\utility\znull\znull.bin"/>
+      <file name="PSX.EXE" type="data"	source="C:\BioDSZ\disc\PSX.EXE"/>
+      <file name="SYSTEM.CNF" type="data"	source="C:\BioDSZ\disc\SYSTEM.CNF"/>
+      <file name="ZNULL.DAT" type="data"	source="C:\BioDSZ\utility\znull\znull.bin"/>
 
-  </directory_tree>
+    </directory_tree>
   </track>
   <track type="audio" source="C:\BioDSZ\utility\znull\znull.xa"/>
 </iso_project>

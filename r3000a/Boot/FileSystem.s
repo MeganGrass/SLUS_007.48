@@ -1,15 +1,19 @@
 
+;; June 17, 2018
+;; PLD Table instruction and corresponding runtime data updated
+;; for inclusion of required PLXXCH.PLD data
+
 				;; Stack
 				addiu   $sp, -0x18
 				sw      $ra, 0x18+-0x08($sp)
 
-				li		$v0, pDiscTable+(ZERO_DO2_FILES*8)
+				li		$v0, pDiscTable+(CdxFileD02*8)
 				sw		$v0, GAME_DO2_LBA					;; DO2
-				li		$v0, pDiscTable+(ZERO_EMD0_FILES*8)
+				li		$v0, pDiscTable+(CdxFileEmd0*8)
 				sw		$v0, GAME_EMD0_LBA					;; EMD0
-				li		$v0, pDiscTable+(ZERO_EMD1_FILES*8)
+				li		$v0, pDiscTable+(CdxFileEmd1*8)
 				sw		$v0, GAME_EMD1_LBA					;; EMD1
-				li		$v1, ZERO_EMD0_FILES				;; LBA
+				li		$v1, CdxFileEmd0					;; LBA
 				sh		$v1, 0x8001B960						;; EMS0 sub_8001B934
 				sh		$v1, 0x8001B990						;; EMS0 sub_8001B934
 				sh		$v1, 0x8001B9AC						;; EMS0 sub_8001B934
@@ -28,7 +32,7 @@
 				sh		$a1, 0x8001B8E4						;; EMS0 sec_high
 				sh		$a0, 0x8001B9F4						;; EMS0 sector
 				sh		$a1, 0x8001B9EC						;; EMS0 sec_high
-				li		$v0, ZERO_EMD1_FILES				;; LBA
+				li		$v0, CdxFileEmd1					;; LBA
 				sh		$v0, 0x8001B974						;; EMS1 sub_8001B934
 				sh		$v0, 0x8001B98C						;; EMS1 sub_8001B934
 				sh		$v0, 0x8001BA2C						;; EMS1 sub_8001B934
@@ -37,21 +41,21 @@
 				addu	$a1, $a1, $v0						;; EMS1 sec_high
 				sh		$a0, 0x8001BA78						;; EMS1 sector
 				sh		$a1, 0x8001BA70						;; EMS1 sec_high
-				li		$v0, pDiscTable+(ZERO_PLD_FILES*8)
+				li		$v0, pDiscTable+(CdxFilePld*8)
 				sw		$v0, GAME_PLD_LBA					;; PLD
-				li		$v0, pDiscTable+(ZERO_PLW_FILES*8)
+				li		$v0, pDiscTable+(CdxFilePlw*8)
 				sw		$v0, GAME_PLW_LBA					;; PLW
-				li		$v0, pDiscTable+(ZERO_SNDARMS_FILES*8)
+				li		$v0, pDiscTable+(CdxFileSndArms*8)
 				sw		$v0, GAME_SNDARMS_LBA				;; SNDARMS
-				li		$v0, pDiscTable+(ZERO_SNDCORE_FILES*8)
+				li		$v0, pDiscTable+(CdxFileSndCore*8)
 				sw		$v0, GAME_SNDCORE_LBA				;; SNDCORE
-				li		$v0, pDiscTable+(ZERO_SNDEMD_FILES*8)
+				li		$v0, pDiscTable+(CdxFileSndEmd*8)
 				sw		$v0, GAME_SNDEMD_LBA				;; SNDEMD
-				li		$v1, ZERO_SNDEMD_FILES				;; OPCODE: li      $a0, ZERO_SNDEMD_FILES
-				sh		$v1, 0x8005A128						;; OPCODE: li      $a0, ZERO_SNDEMD_FILES
-				sh		$v1, 0x8005A14C						;; OPCODE: li      $a0, ZERO_SNDEMD_FILES
-				sh		$v1, 0x8005A228						;; OPCODE: li      $a0, ZERO_SNDEMD_FILES
-				sh		$v1, 0x8005A278						;; OPCODE: li      $a0, ZERO_SNDEMD_FILES
+				li		$v1, CdxFileSndEmd					;; OPCODE: li      $a0, CdxFileSndEmd
+				sh		$v1, 0x8005A128						;; OPCODE: li      $a0, CdxFileSndEmd
+				sh		$v1, 0x8005A14C						;; OPCODE: li      $a0, CdxFileSndEmd
+				sh		$v1, 0x8005A228						;; OPCODE: li      $a0, CdxFileSndEmd
+				sh		$v1, 0x8005A278						;; OPCODE: li      $a0, CdxFileSndEmd
 				li		$v0, 8
 				multu	$v0, $v1
 				mflo	$v0
@@ -65,13 +69,13 @@
 				sh		$a0, 0x8005A290						;; sector
 				sh		$a1, 0x8005A15C						;; sec_high
 				sh		$a1, 0x8005A288						;; sec_high
-				li		$v0, pDiscTable+(ZERO_SNDMAIN_FILES*8)
+				li		$v0, pDiscTable+(CdxFileSndMain*8)
 				sw		$v0, GAME_SNDMAIN_LBA				;; SNDMAIN
-				li		$v0, pDiscTable+(ZERO_SNDSUB_FILES*8)
+				li		$v0, pDiscTable+(CdxFileSndSub*8)
 				sw		$v0, GAME_SNDSUB_LBA				;; SNDSUB
-				li		$v0, pDiscTable+(ZERO_BSS_FILES*8)
+				li		$v0, pDiscTable+(CdxFileBss*8)
 				sw		$v0, GAME_BSS_LBA					;; BSS LBA
-				li		$v0, pDiscTable+(ZERO_RDT_FILES*8)
+				li		$v0, pDiscTable+(CdxFileRdt*8)
 				sw		$v0, GAME_RDT_LBA					;; RDT LBA
 
 				;; DO2 Table
@@ -114,11 +118,11 @@
 
 				;; PLD Table
 				lw		$v0, GAME_PLD_LBA
-				li		$a1, 0x80				;; Size
+				li		$a1, 0x100				;; Size
 				lw		$a0, 0x04($v0)			;; Disc.fpos.sector
 				li		$a2, PldArchiveTbl		;; Address
 				jal		CdReadEx
-				li		$a3, 16					;; Auto-Parse Index
+				li		$a3, 32					;; Auto-Parse Index
 
 				;; Terminate
 				lw      $ra, 0x18+-0x08($sp)

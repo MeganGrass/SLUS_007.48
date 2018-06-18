@@ -15,6 +15,17 @@
 				move	$s4, $a1					;; Mode
 				sw		$ra, 0x30+-0x08($sp)
 				sw		$s0, 0x30+-0x20($sp)
+
+				;; Address
+				la		$a0, @Str00
+				jal		pSXPrint
+				move	$a1, $s5
+
+				;; File_no
+				la		$a0, @Str01
+				jal		pSXPrint
+				move	$a1, $s3
+
 @ReadFilePos:
 				bnez	$s4, @ArchiveMode			;; Is CD.Fsize and CD.Fsector Already Set?
 				move	$s0, $0
@@ -266,3 +277,8 @@ loc_800136EC:
 				addiu	$sp, 0x30
 				jr		$ra
 				nop
+				
+@Str00:			.ascii	"Cd_read_s:",0x09,"addr=%x",0x09,0x00
+				.align
+@Str01:			.ascii	"file=%x",0x0D,0x0A,0x00
+				.align

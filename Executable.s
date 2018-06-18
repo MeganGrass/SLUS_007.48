@@ -14,9 +14,10 @@
 .include ".\\r3000a\\CD\\CdReadSound.s"			;; CdReadSound Function
 .include ".\\r3000a\\CD\\CdRead.s"				;; CdRead Function
 .include ".\\r3000a\\Boot\\Logo.s"				;; Warning Screen
+.include ".\\r3000a\\Miscellaneous\\FileTable.s";; DO2, CORE and ARMS file IDs (deprecated)
 .include ".\\r3000a\\Miscellaneous\\LoadTask.s"	;; Overlay Table
 .include ".\\r3000a\\Miscellaneous\\itox.s"		;; Integer -> String (Hexdecimal Printing)
-.include ".\\r3000a\\Miscellaneous\\FileTable.s";; DO2, CORE and ARMS file IDs (deprecated)
+.include ".\\r3000a\\Miscellaneous\\pSXPrint.s"	;; printf for pSX 1.14
 
 ;; DEBUG
 .include ".\\r3000a\\Boot\\Inventory.s"			;; New Game Inventory
@@ -45,6 +46,29 @@
 .include ".\\r3000a\\Room\\LoadRDT.s"			;; RDT File Load
 .include ".\\r3000a\\Room\\LoadSTG.s"			;; STAGE Setup
 .include ".\\r3000a\\Room\\SetStage.s"			;; LBA Index Setup
+
+;; Patch Game_loop()
+;; for BOOT.BIN
+.org 0x80032180
+				addiu   $sp, -0x18
+				sw      $ra, 0x10($sp)
+				li		$v1, 0x0C064015			;; jal		BOOT_Initialize
+				sw		$v1, 0x800257B8
+				li      $s3, 1					;; OPENING
+				li      $s2, 2					;; OPENING
+				lui     $v1, 0x100				;; ENDING
+				and     $v0, $v1				;; ENDING
+				lw      $ra, 0x10($sp)
+				addiu   $sp, 0x18
+				jr      $ra
+				nop
+
+;; printf for pSX 1.14
+;; Output debugging strings to console window
+.org PatchPrintF
+	.word 0x4C444445
+	jr ra
+	nop
 
 ;; pl_mv05
 .org 0x80043E84

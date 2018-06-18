@@ -16,6 +16,17 @@
 				sw		$s3, 0x38+-0x1C($sp)
 				sw		$s2, 0x38+-0x20($sp)
 				sw		$s0, 0x38+-0x28($sp)
+
+				;; Address
+				la		$a0, @Str00
+				jal		pSXPrint
+				move	$a1, $s7
+
+				;; File_no
+				la		$a0, @Str01
+				jal		pSXPrint
+				move	$a1, $s5
+
 @ReadFilePos:
 				move	$s2, $s6					;; Mode Copy
 				sltiu	$v0, $s6, 2					;; Mode Test
@@ -171,3 +182,8 @@ loc_8001323C:
 				addiu	$sp, 0x38
 				jr		$ra
 				nop
+				
+@Str00:			.ascii	"Cd_read:",0x09,"addr=%x",0x09,0x00
+				.align
+@Str01:			.ascii	"file=%x",0x0D,0x0A,0x00
+				.align

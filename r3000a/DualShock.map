@@ -8,7 +8,7 @@ TRUE:				equ 1
 DebugRelease:		equ TRUE
 UseCopyright:		equ FALSE
 NoStatistics:		equ TRUE
-InfHealth:			equ TRUE
+InfHealth:			equ FALSE
 
 ;; Debug
 BOOT_HEALTH:		equ 200
@@ -194,31 +194,36 @@ DBG_AREA_JUMP:		equ 0x800100BF		;; UCHAR	Did user select Area Jump from Debug Me
 DBG_LAST_MESSAGE:	equ 0x800100C0		;; UCHAR	Current user-toggled Message ID, resets to zero (0) with every call to Set_room()
 DBG_LAST_EVENT:		equ 0x800100C1		;; UCHAR	Current user-toggled Event ID, resets to zero (0) with every call to Set_room()
 
+PrintBuffer:		equ 0x800107C0		;; pSXPrint buffer
 DebugMenuHook:		equ 0x800263B0		;; Game_loop() hook for DebugMenu() function
 pBGMTable:			equ 0x800A7118		;; 0x60		;; STAGE1-7 BGM ID Table Buffer
 RDTFile:			equ 0x8011A000		;; RDT File is loaded to this location
 
 ;; Functions (Custom)
-CdReadEx:			equ 0x80010110		;; 0x1DC	Load BGM File (Final Version)
-LoadStage:			equ 0x800102EC		;; 0xD0		Load BSS/RDT File (Final Version)
-LoadPlwTable:		equ 0x800103BC		;; 0x8C		Load PLW File (Final Version)
-LoadPldEx:			equ 0x80010448		;; 0x50		Load PLD File (Final Version)
-SetMusicEx:			equ 0x80010498		;; 0x124	Load BGM File (Final Version)
-Doitox:				equ 0x800105BC		;; 0x40		Integer-to-Hex String Conversion (Final Version)
-DecLZO:				equ 0x800105FC		;; 0x17C	File Decompression (Final Version)
-ChgWeapon:			equ 0x80012E70		;; 0x11C	Real-time Weapon Change (Final Version)
-DebugMenu:			equ 0x80032150		;; In-Game Debug Menu
+CdReadEx:			equ 0x80010110		;; 0x1DC	Load BGM File
+LoadStage:			equ 0x800102EC		;; 0xD0		Load BSS/RDT File
+LoadPlwTable:		equ 0x800103BC		;; 0x8C		Load PLW File
+LoadPldEx:			equ 0x80010448		;; 0x50		Load PLD File
+SetMusicEx:			equ 0x80010498		;; 0x124	Load BGM File
+Doitox:				equ 0x800105BC		;; 0x40		Integer-to-Hex String Conversion
+DecLZO:				equ 0x800105FC		;; 0x17C	File Decompression
+ChgWeapon:			equ 0x80012E70		;; 0x11C	Real-time Weapon Change
+pSXPrint:			equ 0x80032150		;; 0x30		printf for pSX 1.14, for string formatting
+BootPatch:			equ 0x80032180		;; 
+DebugMenu:			equ 0x800321B8		;; In-Game Debug Menu
 DebugStatus:		equ 0x80032780		;; Inventory Item Debug
+PatchPrintF:		equ 0x80098894		;; printf for pSX 1.14
 pl_mv0c_pad:		equ 0x8009D4BC		;; Quick-Turn
 
 ;; File Index
 pDiscTable:			equ 0x800988A4		;; File ID Table
-;; equ 0x80098CF0		;; 0x3D8
+;; equ 0x80098CF0	;; 0x3D8
 DataArchiveTable:	equ 0x80098D04		;; 0x2F0	;; Do Not Modify
 ;; CdRead Entries (80098FF4-800995B4)	;; 0x5C0	;; Do Not Modify
-;; equ 0x800995B4		;; 0x168
-PldArchiveTbl:		equ 0x80099718		;; 0x80		;; PLD LBA Table Buffer
-PlwArchiveTbl:		equ 0x80099798		;; 0xA4		;; PLW LBA Table Buffer (0xA0 + 0x04 for ID)
+PlwArchiveTbl:		equ 0x800995B4		;; 0xA8		;; PLW LBA Table Buffer (0xA0 + 0x04 for ID)
+PldArchiveTbl:		equ 0x8009965C		;; 0x80		;; PLD LBA Table Buffer
+PldChArchiveTbl:	equ 0x800996DC		;; 0x80		;; PLD CH LBA Table Buffer
+;; 0x800996DC		;; 0xE0
 BssArchiveTbl:		equ 0x8009983C		;; 0x180	;; BSS LBA Table Buffer
 RdtArchiveTbl:		equ 0x800999BC		;; 0x180	;; RDT LBA Table Buffer
 BgmMainTbl:			equ 0x80099B3C		;; 0x200	;; BGM MAIN LBA Table Buffer

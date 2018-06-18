@@ -32,24 +32,27 @@ BOOT_Main:
 					addiu   $sp, 0x18
 					jr      $ra
 					nop
-					
-BOOT_Print8:		.include ".\\r3000a\\Miscellaneous\\Print8.s"
-BOOT_Print14:		.include ".\\r3000a\\Miscellaneous\\Print14.s"
-BOOT_CursorUp:		.include ".\\r3000a\\Miscellaneous\\CursorUp.s"
-BOOT_CursorDown:	.include ".\\r3000a\\Miscellaneous\\CursorDown.s"
-BOOT_FadeIn:		.include ".\\r3000a\\Miscellaneous\\FadeIn.s"
-BOOT_FadeOut:		.include ".\\r3000a\\Miscellaneous\\FadeOut.s"
-ControllerReset:	.include ".\\r3000a\\Miscellaneous\\ControllerReset.s"
-BOOT_FileSystem:	.include ".\\r3000a\\Boot\\FileSystem.s"
+
+;; Do Not Rearrange
 BOOT_Initialize:	.include ".\\r3000a\\Boot\\Initialize.s"
+BOOT_FileSystem:	.include ".\\r3000a\\Boot\\FileSystem.s"
 BOOT_TitleScreen:	.include ".\\r3000a\\Boot\\TitleScreen.s"
-BOOT_NewGame:		.include ".\\r3000a\\Boot\\NewGame.s"
+BOOT_DebugGame:		.include ".\\r3000a\\Boot\\DebugGame.s"
 BOOT_DebugOption:	.include ".\\r3000a\\Debug\\Option.s"
 BOOT_StatDisplay:	.include ".\\r3000a\\Debug\\StatDisplay.s"
 BOOT_SoundTest:		.include ".\\r3000a\\Boot\\SoundTest.s"
 BOOT_Copyright:		.include ".\\r3000a\\Boot\\Copyright.s"
-BOOT_AreaJump:		.include ".\\r3000a\\Zero\\AreaJump.s"
-NewGameStr:			.ascii	"New Game",0x00
+BOOT_AreaJump:		.include ".\\r3000a\\Bio2\\AreaJump.s"
+ControllerReset:	.include ".\\r3000a\\Miscellaneous\\ControllerReset.s"
+BOOT_CursorUp:		.include ".\\r3000a\\Miscellaneous\\CursorUp.s"
+BOOT_CursorDown:	.include ".\\r3000a\\Miscellaneous\\CursorDown.s"
+BOOT_FadeIn:		.include ".\\r3000a\\Miscellaneous\\FadeIn.s"
+BOOT_FadeOut:		.include ".\\r3000a\\Miscellaneous\\FadeOut.s"
+BOOT_Print8:		.include ".\\r3000a\\Miscellaneous\\Print8.s"
+BOOT_Print14:		.include ".\\r3000a\\Miscellaneous\\Print14.s"
+OriginalGameStr:	.ascii	"Original Game",0x00
+					.align
+DebugGameStr:		.ascii	"Debug Game",0x00
 					.align
 DebugOptionStr:		.ascii	"Debug Option",0x00
 					.align

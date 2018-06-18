@@ -1,5 +1,6 @@
 
 
+.if DebugRelease
 .org DebugMenuHook
 				jal		DebugMenu
 				nop
@@ -151,12 +152,12 @@
 				and     $v0, $v0, $v1
 				bne		$v0, $v1, @Terminate
 				nop
-				li		$a0, DEBUG_FILE
-				li		$a1, 0x801BFA18
+				li		$a0, LoadTaskFileDebug
+				li		$a1, LoadTaskAddrDebug
 				la		$a3, 0x800110C8
 				jal		Cd_read
 				move	$a2, $0
-				jal		0x801BFA18				;; Debug Menu Function
+				jal		LoadTaskFuncDebug
 				nop
 
 				;; Area Jump
@@ -167,14 +168,12 @@
 				nop
 				lhu		$s1, G_Stage_no			;; Old Stage Id
 				sb		$0,  DBG_AREA_JUMP
-				li		$a0, ZERO_OVERLAY
-				li		$a1, 0x801BFA18
+				li		$a0, LoadTaskFileArea
+				li		$a1, LoadTaskAddrArea
 				la		$a3, 0x800110C8
 				jal		Cd_read
 				move	$a2, $0
-				
-				@AreaJump:
-				jal		0x801BFA18				;; Room Jump Function
+				jal		LoadTaskFuncArea
 				nop
 				lhu		$v0, G_Stage_no
 				nop
@@ -238,3 +237,4 @@
 				.align
 @RotationStr:	.ascii	"Rot %d/%d/%d",0x00
 				.align
+.endif

@@ -274,4 +274,4 @@
 
 @RoomJumpPtr:	.word	@RoomJumpTable
 @RoomJumpTable:
-			.include ".\\r3000a\\Zero\\RoomJumpTable.s"
+			.include ".\\r3000a\\Bio0\\RoomJumpTable.s"

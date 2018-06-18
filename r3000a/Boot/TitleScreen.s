@@ -1,19 +1,22 @@
 
-iNewGame:			equ 0
-NewGameStrX:		equ 0x80
-NewGameStrY:		equ 0xA0
-iDebugOption:		equ 1
+iOriginalGame:		equ 0
+OriginalGameStrX:	equ 0x6C
+OriginalGameStrY:	equ 0xA0
+iDebugGame:			equ 1
+DebugGameStrX:		equ 0x78
+DebugGameStrY:		equ 0xA8
+iDebugOption:		equ 2
 DebugOptionStrX:	equ 0x70
-DebugOptionStrY:	equ 0xA8
-iDebugDisplay:		equ 2
+DebugOptionStrY:	equ 0xB0
+iDebugDisplay:		equ 3
 DebugDisplayStrX:	equ 0x6C
-DebugDisplayStrY:	equ 0xB0
-iSoundTest:			equ 3
+DebugDisplayStrY:	equ 0xB8
+iSoundTest:			equ 4
 SoundTestStrX:		equ 0x78
-SoundTestStrY:		equ 0xB8
-iCopyright:			equ 4
+SoundTestStrY:		equ 0xC0
+iCopyright:			equ 5
 CopyrightStrX:		equ 0x7C
-CopyrightStrY:		equ 0xC0
+CopyrightStrY:		equ 0xC8
 
 				;; Stack
 				addiu   $sp, -0x50
@@ -36,7 +39,7 @@ CopyrightStrY:		equ 0xC0
 				move    $a0, $0
 				jal     Bg_set_mode
 				move    $a1, $0
-				li      $a0, 0x0D
+				li      $a0, DataTitleScreen
 				la      $a1, 0x80198000
 				la      $a3, 0x80010A14
 				jal     Cd_read
@@ -53,16 +56,29 @@ CopyrightStrY:		equ 0xC0
 				beq		$v0, $v1, @CursorDown
 				nop
 
-@Print:			;; New Game
-				la		$a0, NewGameStr
-				li		$a1, NewGameStrX
-				li		$a2, NewGameStrY
+@Print:			;; Original Game
+				la		$a0, OriginalGameStr
+				li		$a1, OriginalGameStrX
+				li		$a2, OriginalGameStrY
 				lbu		$v0, @iCursor
-				li		$v1, iNewGame
-				beq		$v0, $v1, @PrintNewGame
+				li		$v1, iOriginalGame
+				beq		$v0, $v1, @PrintOriginalGame
 				li		$a3, PRINT_GREEN
 				li		$a3, PRINT_GREY
-				@PrintNewGame:
+				@PrintOriginalGame:
+				jal		BOOT_Print8
+				nop
+				
+				;; Debug Game
+				la		$a0, DebugGameStr
+				li		$a1, DebugGameStrX
+				li		$a2, DebugGameStrY
+				lbu		$v0, @iCursor
+				li		$v1, iDebugGame
+				beq		$v0, $v1, @PrintDebugGame
+				li		$a3, PRINT_GREEN
+				li		$a3, PRINT_GREY
+				@PrintDebugGame:
 				jal		BOOT_Print8
 				nop
 				
@@ -120,8 +136,8 @@ CopyrightStrY:		equ 0xC0
 				
 				;; Build Date
 				la		$a0, pBuildDateStr
-				li		$a1, 0xC4
-				li		$a2, 0x78
+				li		$a1, 0x65
+				li		$a2, 0xE0
 				jal		BOOT_Print8
 				li		$a3, PRINT_GREY
 
@@ -137,7 +153,7 @@ CopyrightStrY:		equ 0xC0
 				li		$a0, @iCursor
 				li		$a1, 0x00
 				jal		BOOT_CursorUp
-				li		$a2, 0x04
+				li		$a2, 0x05
 				j		@Print
 				nop
 @CursorDown:	lui     $a0, 0x404
@@ -146,7 +162,7 @@ CopyrightStrY:		equ 0xC0
 				li		$a0, @iCursor
 				li		$a1, 0x00
 				jal		BOOT_CursorDown
-				li		$a2, 0x04
+				li		$a2, 0x05
 				j		@Print
 				nop
 
@@ -156,14 +172,16 @@ CopyrightStrY:		equ 0xC0
 				lbu		$v0, @iCursor
 				nop
 				li		$v1, 0x00
-				beq		$v0, $v1, @NewGame
+				beq		$v0, $v1, @OriginalGame
 				li		$v1, 0x01
-				beq		$v0, $v1, @DebugOption
+				beq		$v0, $v1, @DebugGame
 				li		$v1, 0x02
-				beq		$v0, $v1, @DebugDisplay
+				beq		$v0, $v1, @DebugOption
 				li		$v1, 0x03
-				beq		$v0, $v1, @SoundTest
+				beq		$v0, $v1, @DebugDisplay
 				li		$v1, 0x04
+				beq		$v0, $v1, @SoundTest
+				li		$v1, 0x05
 				beq		$v0, $v1, @Copyright
 				nop
 				j		@Print
@@ -185,23 +203,40 @@ CopyrightStrY:		equ 0xC0
 				nop
 				jal		BOOT_Copyright
 				nop
-
-				;; Title Screen
 				move    $a0, $0
 				jal     Bg_set_mode
 				move    $a1, $0
-				li      $a0, 0x0D
+				li      $a0, DataTitleScreen
 				la      $a1, 0x80198000
 				la      $a3, 0x80010A14
 				jal     Cd_read
 				move    $a2, $0
-
 				jal		BOOT_FadeIn
 				nop
 				j		@Print
 				nop
 
-@NewGame:		jal		BOOT_NewGame
+@OriginalGame:	;; Player
+				lbu		$v0, BOOT_PLAYER
+				sb		$v0, Player_Id
+				sb		$v0, G_Pl_id
+				li		$v0, BOOT_HEALTH
+				sh		$v0, Player_Life
+				sh		$v0, G_Pl_life
+				jal		LoadPlwTable
+				nop
+
+				;; Patch Game_loop()
+				;; for TITLE.BIN
+				li		$v0, 0x0C06568E						;; jal		0x80195A38
+				sw		$v0, 0x800257B8
+
+				;; TITLE.BIN
+				li		$a0, 8
+				jal     Task_lchain
+				nop
+
+@DebugGame:		jal		BOOT_DebugGame
 				nop
 				lw		$v0, BOOT_BioTitleFail				;; Cancel Request
 				li		$v1, TRUE
@@ -212,12 +247,12 @@ CopyrightStrY:		equ 0xC0
 ;;				lui     $a0, 0x400
 ;;				jal     Snd_se_stad
 ;;				move    $a1, $0
-				li		$a0, ZERO_OVERLAY
-				li		$a1, 0x801BFA18
+				li		$a0, LoadTaskFileArea
+				li		$a1, LoadTaskAddrArea
 				la		$a3, 0x800110C8
 				jal		Cd_read
 				move	$a2, $0
-				jal		0x801BFA18
+				jal		LoadTaskFuncArea
 				nop
 
 @Complete:		li      $v0, 3
