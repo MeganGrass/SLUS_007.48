@@ -1,6 +1,8 @@
 # Resident Evil 2 Dis/Assembly Programming
 An open-source modification of Resident Evil 2 Dual Shock [SLUS-00748] using MIPS R3000A assembly customizations.
 
+IMPORTANT: this project is outdated and has been converted to C language in [Resident Evil 2 Starter Kit](https://github.com/MeganGrass/Resident-Evil-2-Starter-Kit)
+
 # Prerequisite
 [Kingcom/armips](https://github.com/Kingcom/armips)
 
@@ -64,9 +66,3 @@ Initial Release
 
 # Example
 [Older Test Builds](https://drive.google.com/open?id=1kJJg2AaBf3CexkkPqAhNYf5x_-0q7i6x)
-
-[YouTube Videos](https://www.youtube.com/channel/UCGA0gJMStIiYJXGaUq6sMDA/videos?view_as=subscriber)
-
-# Information
-
-[The-Horror](http://www.the-horror.com/forums/showthread.php?10487-Bio2-Bio1-5-Mix)
