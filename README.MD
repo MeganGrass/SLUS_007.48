@@ -5,7 +5,7 @@ IMPORTANT: this project is outdated and has been converted to C language in [Res
 
 # Prerequisite
 - Kingcom's [armips](https://github.com/Kingcom/armips)
-- Lameguy64's [mkpsxiso](https://github.com/Lameguy64/mkpsxiso)
+- Lameguy64's [mkpsxiso v1.19](https://github.com/Lameguy64/mkpsxiso)
 - [Toolchain](https://drive.google.com/open?id=1UNfnZ25LdRhkM3ps29e28KgGgnBHhNgg)
 - [test.exe (2018-06-17)](https://drive.google.com/open?id=1KLoF-RZK8mFB-cVdWLs-nSXCeuYIC6Zw)
 
