@@ -1,4 +1,4 @@
-# Resident Evil 2 Dis/Assembly Programming
+# Resident Evil 2 Dual Shock (SLUS_007.48) Research Project
 An open-source modification of Resident Evil 2 Dual Shock [SLUS-00748] using MIPS R3000A assembly customizations.
 
 IMPORTANT: this project is outdated and has been converted to C language in [Resident Evil 2 Starter Kit](https://github.com/MeganGrass/Resident-Evil-2-Starter-Kit)
