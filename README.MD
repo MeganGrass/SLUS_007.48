@@ -4,15 +4,10 @@ An open-source modification of Resident Evil 2 Dual Shock [SLUS-00748] using MIP
 IMPORTANT: this project is outdated and has been converted to C language in [Resident Evil 2 Starter Kit](https://github.com/MeganGrass/Resident-Evil-2-Starter-Kit)
 
 # Prerequisite
-[Kingcom/armips](https://github.com/Kingcom/armips)
-
-[Lameguy64/mkpsxiso](https://github.com/Lameguy64/mkpsxiso) Lameguy64 is listed here for credit; mkpsxiso is built into toolchain (test.exe)
-
-[Toolchain](https://drive.google.com/open?id=1UNfnZ25LdRhkM3ps29e28KgGgnBHhNgg)
-
-[test.exe (2018-06-17)](https://drive.google.com/open?id=1KLoF-RZK8mFB-cVdWLs-nSXCeuYIC6Zw)
-
-[github009 build](https://drive.google.com/open?id=1Xh9U1traF98_CJZejsJI_jrYaI7GIf14)
+- Kingcom's [armips](https://github.com/Kingcom/armips)
+- Lameguy64's [mkpsxiso](https://github.com/Lameguy64/mkpsxiso)
+- [Toolchain](https://drive.google.com/open?id=1UNfnZ25LdRhkM3ps29e28KgGgnBHhNgg)
+- [test.exe (2018-06-17)](https://drive.google.com/open?id=1KLoF-RZK8mFB-cVdWLs-nSXCeuYIC6Zw)
 
 # Build Instructions
 01 -- Extract contents of the following to C:\BioDSZ
